@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JdbcTemplateTest/JdbcTemplateTest.iml" filepath="$PROJECT_DIR$/JdbcTemplateTest/JdbcTemplateTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mvc_Spring/Mvc_Spring.iml" filepath="$PROJECT_DIR$/Mvc_Spring/Mvc_Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" filepath="$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" />
+    </modules>
+  </component>
+</project>

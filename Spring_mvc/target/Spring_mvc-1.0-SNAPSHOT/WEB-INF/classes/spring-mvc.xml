@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc  http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        ">
+<!--controller的组件扫描-->
+<!--    <context:component-scan base-package="com.lqs.controller"/>-->
+    <context:component-scan base-package="com.lqs">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+
+<!--    手动配置内置资源视图解析器-->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+<!--配置处理器映射器, 返回json-->
+    <!--    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">-->
+    <!--        <property name="messageConverters">-->
+    <!--            <bean  class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+
+<!--    添加mvc注解驱动， 这个注解驱动会直接驱动json，不用自己再配置了， springmvc自动的添加jackson功能-->
+<!--    添加转换器-->
+    <mvc:annotation-driven conversion-service="conversionService2"/>
+    
+<!--    SpringMvc加载资源,开放资源的访问权限，如果不开放，那么springMvc可能直接访问不到， 开放静态资源-->
+<!--    mapping表示静态资源的映射位置， location表示静态资源的访问地址是什么开头，可以配置多个-->
+<!--    <mvc:resources mapping="/js/**" location="/js/"/>-->
+
+<!--    如果不使用springmvc的机制，也可以使用servlet原始的寻找资源的机制，这个实在springmvc找不到的时候就会调用这个默认的机制-->
+    <mvc:default-servlet-handler/>
+
+
+<!--    申明转换器-->
+    <bean id="conversionService2" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <list>
+                <bean class="com.lqs.converter.DataConverter"/>
+            </list>
+        </property>
+    </bean>
+
+<!--    配置文件上传解析器, id写死-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+<!--        上传文件的总大小-->
+        <property name="maxUploadSize" value="10240000"/>
+<!--        上传文件的每个大小-->
+<!--        <property name="maxUploadSizePerFile" value="10240000"/>-->
+<!--        上传文件的编码-->
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+
+</beans>
