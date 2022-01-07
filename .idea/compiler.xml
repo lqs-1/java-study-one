@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringMvc_base_test" />
         <module name="Spring_mvc" />
         <module name="Mvc_Spring" />
         <module name="JdbcTemplateTest" />
@@ -18,6 +19,7 @@
       <module name="Spring_Mvc" target="1.8" />
       <module name="Spring_mvc" target="1.8" />
       <module name="SpringMvc" target="1.5" />
+      <module name="SpringMvc_base_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

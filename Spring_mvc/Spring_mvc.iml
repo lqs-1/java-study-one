@@ -58,5 +58,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.1" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.14" level="project" />
   </component>
 </module>

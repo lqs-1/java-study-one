@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JdbcTemplateTest/JdbcTemplateTest.iml" filepath="$PROJECT_DIR$/JdbcTemplateTest/JdbcTemplateTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mvc_Spring/Mvc_Spring.iml" filepath="$PROJECT_DIR$/Mvc_Spring/Mvc_Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMvc_base_test/SpringMvc_base_test.iml" filepath="$PROJECT_DIR$/SpringMvc_base_test/SpringMvc_base_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" filepath="$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" />
     </modules>
   </component>
