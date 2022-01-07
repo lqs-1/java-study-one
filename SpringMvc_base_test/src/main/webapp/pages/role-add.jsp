@@ -10,6 +10,7 @@
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
+
 <!-- Tell the browser to be responsive to screen width -->
 <meta
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -90,7 +91,7 @@
 			</section>
 			<!-- 内容头部 /-->
 
-			<form action="${pageContext.request.contextPath}/role/save.do"
+			<form action="${pageContext.request.contextPath}/role/save"
 				method="post">
 				<!-- 正文区域 -->
 				<section class="content"> <!--产品信息-->
@@ -117,7 +118,7 @@
 				<div class="box-tools text-center">
 					<button type="submit" class="btn bg-maroon">保存</button>
 					<button type="button" class="btn bg-default"
-						onclick="history.back(-1);">返回</button>
+						onclick="history.back(-1);">返回</button><br>
 				</div>
 				<!--工具栏/--> </section>
 				<!-- 正文区域 /-->

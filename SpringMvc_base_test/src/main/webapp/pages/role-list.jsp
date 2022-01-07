@@ -12,6 +12,7 @@
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
+
 <!-- Tell the browser to be responsive to screen width -->
 <meta
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -108,11 +109,11 @@
 							<div class="pull-left">
 								<div class="form-group form-inline">
 									<div class="btn-group">
-										<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/role-add.jsp'">
+										<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/role/add'">
 											<i class="fa fa-file-o"></i> 新建
 										</button>
 										
-										<button type="button" class="btn btn-default" title="刷新">
+										<button type="button" class="btn btn-default" title="刷新" onclick="location.href='${pageContext.request.contextPath}/role/list'">
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
 									</div>
@@ -149,7 +150,7 @@
 											<td>${role.roleName}</td>
 											<td>${role.roleDesc}</td>
 											<td class="text-center">
-												<a href="#" class="btn bg-olive btn-xs">删除</a>
+												<a href="${pageContext.request.contextPath}/role/del/${role.id}" class="btn bg-olive btn-xs">删除</a>
 											</td>
 										</tr>
 									</c:forEach>

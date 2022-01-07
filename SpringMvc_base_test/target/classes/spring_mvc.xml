@@ -10,7 +10,7 @@
        http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd
         ">
 
-    <!--    配置roleController-->
+<!--    配置roleController-->
     <bean id="roleController" class="com.lqs.controller.RoleController">
         <property name="roleService" ref="roleService"/>
     </bean>
