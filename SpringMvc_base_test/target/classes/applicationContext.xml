@@ -33,5 +33,14 @@
         <property name="roleDao" ref="roleDao"/>
     </bean>
 
+<!--    配置userDao-->
+    <bean id="userDao" class="com.lqs.dao.impl.UserDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
 
+<!--    配置userService-->
+    <bean id="userService" class="com.lqs.service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+        <property name="roleDao" ref="roleDao"/>
+    </bean>
 </beans>

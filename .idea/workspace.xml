@@ -10,16 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/RoleDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/impl/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/impl/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/role-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/role-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/spring_mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/user-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/user-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages/user-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +138,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,7 +269,8 @@
     </configuration>
     <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/springmvc/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="SpringMvc_base_test:war">
           <settings>
@@ -401,6 +418,7 @@
       <workItem from="1641451088235" duration="3905000" />
       <workItem from="1641460623489" duration="4694000" />
       <workItem from="1641520269430" duration="7714000" />
+      <workItem from="1641532818887" duration="10280000" />
     </task>
     <servers />
   </component>

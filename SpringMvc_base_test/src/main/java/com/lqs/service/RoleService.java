@@ -10,4 +10,5 @@ public interface RoleService {
     public int save(String roleName, String roleDesc);
 
     public int del(int id);
+
 }

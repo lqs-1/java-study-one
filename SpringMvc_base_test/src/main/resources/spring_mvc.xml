@@ -15,6 +15,11 @@
         <property name="roleService" ref="roleService"/>
     </bean>
 
+<!--    配置userController-->
+    <bean id="userController" class="com.lqs.controller.UserController">
+        <property name="userService" ref="userService"/>
+        <property name="roleService" ref="roleService"/>
+    </bean>
 
     <context:component-scan base-package="com.lqs.controller"/>
 

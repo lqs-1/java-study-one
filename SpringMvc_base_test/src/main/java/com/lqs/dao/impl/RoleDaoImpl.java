@@ -42,4 +42,10 @@ public class RoleDaoImpl implements RoleDao {
         int rst = jdbcTemplate.update("delete from sys_role where id = ?", id);
         return rst;
     }
+
+    @Override
+    public List<Role> get_roles(Long id) {
+        List<Role> roles = jdbcTemplate.query("select * from sys_role,sys_user_role where userId=? and roleId=id", new BeanPropertyRowMapper<Role>(Role.class), id);
+        return roles;
+    }
 }

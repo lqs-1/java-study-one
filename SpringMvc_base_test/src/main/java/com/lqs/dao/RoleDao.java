@@ -12,4 +12,6 @@ public interface RoleDao {
     public Boolean filterOne(String roleName);
 
     public int delRole(int id);
+
+    public List<Role> get_roles(Long id);
 }
