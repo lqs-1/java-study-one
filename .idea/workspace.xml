@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/impl/UserDaoImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -394,7 +391,7 @@
       <workItem from="1641460623489" duration="4694000" />
       <workItem from="1641520269430" duration="7714000" />
       <workItem from="1641532818887" duration="10529000" />
-      <workItem from="1641554608728" duration="3015000" />
+      <workItem from="1641554608728" duration="4314000" />
     </task>
     <servers />
   </component>
