@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        ">
+
+
+    <!--
+    Aop的底层原理：
+        是通过Spring提供的动态代理服务技术实现的，也就是在运行时动态生成的代理对象，代理对象的方法执行时进行功能增强的介入
+
+        通过两种代理技术实现：
+            JDK代理： 基于接口的动态代理技术， 生成的代理对象和目标对象是兄弟关系， 因为是通过接口实现的代理对象
+            cglib代理： 基于父类的动态代理技术， 生成的代理对象和目标对象是父子关系
+
+        底层实现案例：
+            在com.lqs.defualt.proxy
+    -->
+
+    <!--
+    基于xml的Aop开发：
+        导入Aop的坐标: spring-context 和 aspectjweaver
+        创建目标接口和目标类（内部有切点）, 目标接口或者目标类都可以
+        创建切面类（内部有增强方法）
+        将目标类和切面类的创建权限交个Spring
+        在配置文件中织入关系
+        测试
+
+    术语：
+        Target:代理的目标对象
+        Proxy：代理对象，一个类被AOP织入之后增强之后，产生的代理对象
+        Joinpoint：连接点，可以被增强的方法，代理对象里面的方法
+        Pointcut：切入点，实际被增强的方法
+        Advice：增强，通知，可以对连接点做的事情
+        Aspect：切面，节点和通知的结合
+        Weaving： 织入，将切点和通知结合的过程
+
+    通知类型：
+        <aop:before>:  前置通知， 切入点方法执行之前执行
+        <aop:after-returning>： 后置通知， 切入点方法执行之后执行
+        <aop:around>： 环绕通知， 切入点方法执行之前和之后都执行
+        <aop:after-throwing>： 异常抛出通知， 指定增强的方法（切入点方法）出现异常时执行
+        <aop:after>： 最终通知， 无论什么样都执行，异常也执行
+
+    切点表达式的写法：
+        execution([修饰符] 返回类型 包名.类名.方法名(参数))
+        其中：
+            访问修饰符可以省略
+            返回值类型，包名，类名，方法，都可以用*代表任意
+            包名与类名之间一个点表示当前包下的类，两个点表示当前包及其子包下的类
+            参数可以使用两个点表示任意个数，任意类型
+    -->
+
+
+    <!--
+    基于注解的Aop开发
+        定义好目标类和切面类
+        将目标类和切面类添加到spring的ioc容器中
+        在切面类中使用@Aspect 标注是切面类
+        在增强方法上使用 @类型(切点表达式) 使用
+        在spring配置文件中  <aop:aspectj-autoproxy/>  打开自动代理
+        在spring配置文件中  扫描包
+
+        抽取切点表达式：
+            在切面类中，定义一个空方法， 使用  @Pointcut("execution(* com.lqs.aop..*(..))")  就可以抽取切点表达式
+            使用： @类型(方法名)
+
+    -->
+
+
+
+
+<!--&lt;!&ndash;    目标类&ndash;&gt;-->
+<!--    <bean id="target" class="com.lqs.aop.Target"/>-->
+<!--&lt;!&ndash;     切面类&ndash;&gt;-->
+<!--    <bean id="myAspect" class="com.lqs.aop.MyAspect"/>-->
+
+<!--    <aop:config>-->
+
+<!--        <aop:aspect ref="myAspect">-->
+<!--&lt;!&ndash;            抽取切入点表达式&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:pointcut id="mycut" expression="execution(* com.lqs.aop.Target.save())"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:before method="before" pointcut-ref="mycut"/>&ndash;&gt;-->
+<!--            <aop:before method="before" pointcut="execution(* com.lqs.aop.Target.save())"/>-->
+<!--            <aop:after method="afterRunning" pointcut="execution(* com.lqs.aop.Target.save())"/>-->
+<!--            <aop:around method="around" pointcut="execution(* com.lqs.aop.Target.save())"/>-->
+<!--            <aop:after-throwing method="thowing" pointcut="execution(* com.lqs.aop.Target.save())"/>-->
+<!--            <aop:after method="after" pointcut="execution(* com.lqs.aop.Target.save())"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+    <context:component-scan base-package="com.lqs.aop"/>
+
+
+    <aop:aspectj-autoproxy/>
+
+</beans>

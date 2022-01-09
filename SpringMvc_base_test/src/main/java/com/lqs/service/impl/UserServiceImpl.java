@@ -60,4 +60,10 @@ public class UserServiceImpl implements UserService {
         rst += userDao.delUser(user_id);
         return rst;
     }
+
+    @Override
+    public User find(String username, String password) {
+        User user = userDao.findUser(username, password);
+        return user;
+    }
 }

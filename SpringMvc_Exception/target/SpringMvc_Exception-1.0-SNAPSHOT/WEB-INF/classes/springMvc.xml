@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        ">
+
+    <mvc:annotation-driven/>
+
+    <bean class="com.lqs.controller.DemoController">
+        <property name="demoService" ref="service"/>
+    </bean>
+    <bean id="service" class="com.lqs.service.impl.DemoServiceImpl"/>
+
+    <!--
+    在一般的情况下，三层架构中的某一层出现异常，就会在web页面中弹出一个异常页面，这个异常页面很不友好
+    springmvc有一个异常处理机制，所以可以将异常一直往上抛，抛到顶层的前端控制器（mvc）当中，由mvc的前端控制器处理
+
+    springmvc有两种处理异常的方式：
+        第一： 使用Springmvc提供的处理器，SimpleMappingExceptionResolver， 这个处理器是定义好的，我们使用只需要配置就可以用
+
+        第二： 实现Spring的异常处理接口 HandlerExceptionResolver 自定义异常处理器
+
+
+    -->
+
+
+<!--&lt;!&ndash;springmvc异常处理方式1：    简单映射异常处理器配置&ndash;&gt;-->
+<!--    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">-->
+<!--&lt;!&ndash;        在没有定义某个异常的跳转页面的时候，默认的异常跳转页面，意思就是异常的处理在下面的处理中找不到的时候，就默认访问这个页面&ndash;&gt;-->
+<!--        <property name="defaultErrorView" value="/error.jsp"/>-->
+<!--&lt;!&ndash;        下面是每个异常的跳转页面&ndash;&gt;-->
+<!--        <property name="exceptionMappings">-->
+<!--            <map>-->
+<!--                <entry key="com.lqs.exception.MyException" value="/error1.jsp"/>-->
+<!--                <entry key="java.lang.ClassCastException" value="/error2.jsp"/>-->
+<!--            </map>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+    <bean id="myExceptionResolver" class="com.lqs.resolver.MyExceptionResolver"/>
+
+</beans>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd
+        ">
+
+
+    <context:component-scan base-package="com.lqs"/>
+
+    <!--
+    声明式事务控制：
+        xml: 除了正文第一行和最后一行，剩下的都是xml配置方式
+        注解： 第一行和最后一行是配置注解事务控制的，中间的平台事务管理器是公用的
+    -->
+
+
+<!--    配置数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/tx"/>
+        <property name="user" value="lqs"/>
+        <property name="password" value="lqs"/>
+    </bean>
+
+<!--    jdbc模板配     置-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+<!--    userDao配置-->
+<!--    <bean id="userDao" class="com.lqs.dao.impl.UserDaoImpl">-->
+<!--        <property name="jdbcTemplate" ref="jdbcTemplate"/>-->
+<!--    </bean>-->
+
+<!--    配置userService-->
+    <!--    目标对象配置-->
+<!--    <bean id="userService" class="com.lqs.service.impl.UserServiceImpl">-->
+<!--        <property name="userDao" ref="userDao"/>-->
+<!--    </bean>-->
+
+<!--    配置平台事务管理器-->
+    <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+<!--    配置通知 事务增强器-->
+<!--    <tx:advice id="transactionInterceptor" transaction-manager="dataSourceTransactionManager">-->
+<!--        <tx:attributes>-->
+<!--            <tx:method name="*"/>-->
+<!--        </tx:attributes>-->
+<!--    </tx:advice>-->
+
+<!--    aop织入-->
+<!--    <aop:config>-->
+<!--        <aop:advisor advice-ref="transactionInterceptor" pointcut="execution(* com.lqs.service..*.*(..))"/>-->
+<!--    </aop:config>-->
+
+
+
+
+    <tx:annotation-driven transaction-manager="dataSourceTransactionManager"/>
+
+</beans>

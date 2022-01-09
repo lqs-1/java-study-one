@@ -10,4 +10,7 @@ public interface UserService {
     public int save(String username, String password, String email, String phoneNum, int[] roleIds);
 
     public int del(int user_id);
+
+
+    public User find(String username, String password);
 }

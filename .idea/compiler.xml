@@ -6,20 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringMvc_Exception" />
+        <module name="Spring_Aop" />
+        <module name="Spring_Tx" />
+        <module name="JdbcTemplateTest" />
         <module name="SpringMvc_base_test" />
         <module name="Spring_mvc" />
         <module name="Mvc_Spring" />
-        <module name="JdbcTemplateTest" />
+        <module name="SpringMvc_interceptor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JdbcTemplateTest" target="1.5" />
       <module name="Mvc_Spring" target="1.8" />
+      <module name="Spring_Aop" target="1.8" />
       <module name="spring_dataSource" target="1.5" />
       <module name="Spring_Mvc" target="1.8" />
       <module name="Spring_mvc" target="1.8" />
+      <module name="Spring_Tx" target="1.8" />
       <module name="SpringMvc" target="1.5" />
       <module name="SpringMvc_base_test" target="1.8" />
+      <module name="SpringMvc_Exception" target="1.8" />
+      <module name="SpringMvc_interceptor" target="1.8" />
+      <module name="SpringTx" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

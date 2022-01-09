@@ -2,10 +2,15 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Mvc_Spring" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Aop" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Mvc" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Tx" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMvc" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMvc_base_test" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvc_Exception" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvc_interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringTx" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +22,11 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_mvc/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMvc_base_test/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvc_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvc_Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Aop/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringTx/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Tx/pom.xml" />
       </list>
     </option>
   </component>

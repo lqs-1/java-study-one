@@ -5,9 +5,12 @@ import com.lqs.domain.Role;
 import com.lqs.domain.User;
 import com.lqs.service.RoleService;
 import com.lqs.service.UserService;
+import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @RequestMapping(value = "user")
@@ -60,5 +63,24 @@ public class UserController {
     public String user_del(@PathVariable("user_id") int user_id){
         int rst = userService.del(user_id);
         return "redirect:/user/list";
+    }
+
+
+
+    @RequestMapping(value = "login", method = {RequestMethod.POST})
+    public String user_login(HttpServletRequest request,
+                             String username,
+                             String password
+                             ){
+        User user = userService.find(username, password);
+        if (user == null){
+            return "redirect:/login.jsp";
+        }
+        HttpSession session = request.getSession();
+        session.setAttribute("user", user);
+        String next_url = (String) session.getAttribute("next_url");
+        session.removeAttribute("next_url");
+        String next_real_url = next_url.substring(16);
+        return "redirect:"+next_real_url;
     }
 }

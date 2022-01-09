@@ -16,4 +16,6 @@ public interface UserDao {
     public int delUser(int id);
 
     public int delUserRole(int user_id);
+
+    public User findUser(String username, String password);
 }

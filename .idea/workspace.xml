@@ -2,14 +2,109 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringMvc_base_test:war" />
+      <artifact name="Spring_Tx:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="" />
+    <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMvc_Exception_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMvc_Exception_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMvc_interceptor_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMvc_interceptor_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringTx_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringTx_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Aop_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Aop_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Tx_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Tx_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/SpringMvc_Exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/java/com/lqs/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/java/com/lqs/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/java/com/lqs/resolver/MyExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/java/com/lqs/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/java/com/lqs/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/resources/springMvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/error1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/error2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/error3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/error4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/error5.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/interceptor/LoginRequriedMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/SpringMvc_interceptor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/src/main/java/com/lqs/controller/InterceptorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/src/main/java/com/lqs/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/src/main/java/com/lqs/interceptor/MyInterceptor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/src/main/resources/spring_mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMvc_interceptor/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/Spring_Aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/aop/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/aop/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/aop/TargetInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/cglib/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/cglib/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/cglib/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/jdk/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/jdk/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/jdk/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/jdk/TargetInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Aop/src/test/java/teee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/Spring_Tx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/java/com/lqs/controller/Txtes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/java/com/lqs/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/java/com/lqs/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Tx/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/spring_mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/WEB-INF/classes/spring_mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/SpringMvc_base_test-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/com/lqs/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/spring_mvc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,9 +160,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/aop" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="spring" />
@@ -77,13 +172,15 @@
       <recent name="com.lqs.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/aop" />
+      <recent name="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/cglib" />
+      <recent name="$PROJECT_DIR$/SpringMvc_Exception/src/main/webapp" />
       <recent name="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp" />
       <recent name="$PROJECT_DIR$/Spring_mvc/src/test/resources" />
-      <recent name="$PROJECT_DIR$/Spring_mvc/src/main/webapp/jsp" />
-      <recent name="$PROJECT_DIR$/demo/src/main/resources" />
-      <recent name="$PROJECT_DIR$/SpringMvc/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp/pages" />
       <recent name="$PROJECT_DIR$/Spring_mvc/src/main/webapp/jsp" />
       <recent name="$PROJECT_DIR$/SpringMvc" />
       <recent name="$PROJECT_DIR$/SpringMvc/src/main/java/com/lqs/config" />
@@ -98,7 +195,46 @@
       <recent name="com.lqs.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.56">
+  <component name="RunManager" selected="Application.Txtes">
+    <configuration name="ProxyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.defualt.proxy.cglib.ProxyTest" />
+      <module name="Spring_Aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.defualt.proxy.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.defualt.proxy.jdk.ProxyTest" />
+      <module name="Spring_Aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.defualt.proxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Txtes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.controller.Txtes" />
+      <module name="Spring_Tx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserController" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.web.UserController" />
       <module name="spring_dataSource" />
@@ -112,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqs.web.test" />
-      <module name="SpringMvc" />
+    <configuration name="UserDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.dao.impl.UserDaoImpl" />
+      <module name="SpringTx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.web.*" />
+          <option name="PATTERN" value="com.lqs.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,64 +261,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_dataSource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.DataSourceTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataSourceTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_dataSource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.DataSourceTest" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcTemplateTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_mvc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lqs.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.test.JdbcTemplateTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringJunitTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_dataSource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.SpringJunitTest" />
+    <configuration name="teee.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Aop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="teee" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -240,18 +322,17 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/springmvc/" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Spring_Tx_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringMvc_base_test:war">
+        <artifact name="Spring_Tx:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/springmvc" />
+            <option name="CONTEXT_PATH" value="/Spring_Tx_war" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ba01611b-9653-4d54-bb20-5563baba37fb" />
+        <option name="BASE_DIRECTORY_NAME" value="011e6a8e-1480-422c-ac44-e050b9c4e529" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -259,7 +340,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="43503" />
+        <option name="DEBUG_PORT" value="38101" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -324,28 +405,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMvc_base_test:war" />
+          <artifact name="Spring_Tx:war" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.UserController" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="JUnit.DataSourceTest.test5" />
-      <item itemvalue="JUnit.DataSourceTest.test6" />
-      <item itemvalue="JUnit.SpringJunitTest.test1" />
-      <item itemvalue="JUnit.JdbcTemplateTest.test1" />
+      <item itemvalue="Application.Txtes" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.ProxyTest (1)" />
+      <item itemvalue="Application.UserDaoImpl" />
+      <item itemvalue="JUnit.teee.test1" />
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Maven.clean" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JdbcTemplateTest.test1" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.SpringJunitTest.test1" />
-        <item itemvalue="JUnit.DataSourceTest.test5" />
-        <item itemvalue="JUnit.DataSourceTest.test6" />
+        <item itemvalue="Application.Txtes" />
+        <item itemvalue="Application.UserDaoImpl" />
+        <item itemvalue="JUnit.teee.test1" />
+        <item itemvalue="Application.ProxyTest (1)" />
+        <item itemvalue="Application.ProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -392,6 +473,14 @@
       <workItem from="1641520269430" duration="7714000" />
       <workItem from="1641532818887" duration="10529000" />
       <workItem from="1641554608728" duration="4314000" />
+      <workItem from="1641615524464" duration="8065000" />
+      <workItem from="1641623610266" duration="853000" />
+      <workItem from="1641624480262" duration="2484000" />
+      <workItem from="1641686782836" duration="11324000" />
+      <workItem from="1641705045238" duration="2284000" />
+      <workItem from="1641707400513" duration="845000" />
+      <workItem from="1641708263330" duration="2259000" />
+      <workItem from="1641710552926" duration="2163000" />
     </task>
     <servers />
   </component>
@@ -409,6 +498,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -38,4 +38,12 @@
     <mvc:resources mapping="/img/**" location="/img/"/>
     <mvc:resources mapping="/plugins/**" location="/plugins/"/>
 
+<!--    配置拦截器，用户未登录则拦截-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/user/login"/>
+            <bean class="com.lqs.interceptor.LoginRequriedMixin"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

@@ -78,4 +78,10 @@ public class UserDaoImpl implements UserDao {
         int rst = jdbcTemplate.update("delete from sys_user_role where userId=?", user_id);
         return 0;
     }
+
+    @Override
+    public User findUser(String username, String password) {
+        User query = jdbcTemplate.queryForObject("select * from sys_user where username=? and password=?", new BeanPropertyRowMapper<>(User.class), username, password);
+        return query;
+    }
 }
