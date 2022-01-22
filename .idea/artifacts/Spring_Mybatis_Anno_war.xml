@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Spring-Mybatis-Anno:war">
+    <output-path>$PROJECT_DIR$/Spring-Mybatis-Anno/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Spring-Mybatis-Anno</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Spring-Mybatis-Anno-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Spring-Mybatis-Anno:war exploded" />
+    </root>
+  </artifact>
+</component>

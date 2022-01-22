@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx  http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop   http://www.springframework.org/schema/aop/spring-aop.xsd
+        ">
+
+<!--    组件扫描，mapper和service，除开controller-->
+    <context:component-scan base-package="com.lqs">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+
+<!--    使用spring继承mybatis
+    原始的方法不能帮我们产生bean，每次都要写一坨代码，不爽
+    现在使用spring来继承mybatis
+    使用mybatis-spring实例化工厂对象，sqlsession
+    使用事务来控制事务
+-->
+
+<!--    第一步：配置数据源-->
+    <context:property-placeholder location="classpath:jdbc-config.properties"/>
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+<!--    第二步：配置sqlsession工厂对象-->
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config-spring.xml"/>
+    </bean>
+<!--    扫mapper包-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.lqs.mapper"/>
+    </bean>
+
+
+<!--    第三步：配置申明式事务控制-->
+<!--    平台事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+<!--    配置事务增强-->
+    <tx:advice id="txAdvice">
+        <tx:attributes>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+<!--事务的aop织入-->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.lqs.service.impl.*.*(..))"/>
+    </aop:config>
+
+</beans>

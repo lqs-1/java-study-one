@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    加载properties配置文件-->
+    <properties resource="jdbc.properties"/>
+<!--    配置环境，可以有很多个，设置默认启用即可-->
+
+<!--    提供别名，在mapper配置文件中就不用写权限定名了, String,Integer,Long,Double,Boolean这写类型的别名是系统定义好的，全小写就可以使用-->
+    <typeAliases>
+        <typeAlias type="com.lqs.domain.User" alias="user"/>
+        <typeAlias type="com.lqs.domain.Role" alias="role"/>
+    </typeAliases>
+<!--注册自定义的类型转换器-->
+    <typeHandlers>
+        <typeHandler handler="com.lqs.handler.TypeHandler"/>
+    </typeHandlers>
+
+<!--    配置分页助手插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+<!--            设置方言，各种数据库的sql可能不同-->
+            <property name="dialect" value="mysql"/>
+        </plugin>
+    </plugins>
+
+    <environments default="tst">
+<!--        环境名称-->
+        <environment id="tst">
+<!--            指定事务类型为jdbc-->
+            <transactionManager type="JDBC"></transactionManager>
+<!--            指定当前数据源为连接池类型-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+<!--    加载映射文件，可以配置很多个-->
+    <mappers>
+        <mapper resource="com/lqs/mapper/UserMapper.xml"/>
+        <mapper resource="com/lqs/mapper/RoleMapper.xml"/>
+    </mappers>
+
+
+
+
+</configuration>

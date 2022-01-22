@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+使用mapper实现dao层开发：
+    采用mybatis的代理开发
+    需要一个dao层的接口  由mybatis框架根据定义好的接口来创建接口的动态代理对象
+        mapper.xml中的命名空间和接口的权限定名相同
+        mapper.xml中的id和接口中的方法名相同
+        mapper.xml的接收参数必须和接口的接收参数相同
+        mapper.xml的返回类型参数必须和接口的返回类型相同
+
+    使用：
+        在业务层中：
+            加载配置文件
+            InputStream resourceAsStream = Resources.getResourceAsStream("Mybatis-config.xml");
+            获取工厂对象
+            SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
+            获取链接对象
+            SqlSession sqlSession = sessionFactory.openSession();
+            获取mapper代理对象
+            UserDao mapper = sqlSession.getMapper(UserDao.class);
+            调用方法
+            mapper.method()
+-->
+
+<mapper namespace="com.lqs.dao.UserDao">
+<!--    抽取sql-->
+    <sql id="selectUser">select * from user</sql>
+
+
+<!--静态sql-->
+<!--    引用被抽取的sql-->
+    <select id="findAll" resultType="user"><include refid="selectUser"></include></select>
+
+    <select id="filterMany" parameterType="int" resultType="com.lqs.domain.User">select * from user where id=#{id}</select>
+
+    <insert id="insertOne" parameterType="com.lqs.domain.User">insert  into user values (#{username}, #{id}, #{bd})</insert>
+
+    <insert id="updateOne" parameterType="com.lqs.domain.User">update user set username=#{username} where id=#{id}</insert>
+
+    <delete id="deleteOne" parameterType="com.lqs.domain.User">delete from user where id=#{id}</delete>
+
+
+<!--    动态sql   where相当于1=1-->
+
+<!--
+    if:判断某个参数是否存在和where一起用
+    foreach:单子段or，或者in
+-->
+    <select id="findMany" resultType="user">
+        select * from user
+        <where>
+            <if test="id!=0">
+                and id=#{id}
+            </if>
+            <if test="username!=null">
+                and username=#{username}
+            </if>
+        </where>
+    </select>
+
+    <select id="findById" resultType="user" parameterType="list">
+            select * from user
+            <where>
+                <foreach collection="list" open="id in(" item="id" close=")" separator=",">
+                    #{id}
+                </foreach>
+            </where>
+    </select>
+
+
+
+
+<!--    多表查询, 不直接使用查询语句，在使用之前定义一个结果集映射对象，表明字段显示字段和pojo的实体对应关系-->
+<!--    一对一 -->
+<!--    id表示主键的关联，result表示其余字段的关联-->
+    <resultMap id="userMap" type="user">
+<!--        手动指定字段和实体属性的映射关系
+            column:数据表的字段名
+            property:实体属性名称
+-->
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+<!--        实体中的role对象的关联方法一-->
+<!--        <result column="r_id" property="role.id"/>-->
+<!--        <result column="name" property="role.name"/>-->
+
+<!--        实体中的role对象的关联方法二
+            property:属性名称
+            javaType：
+-->
+        <association property="role" javaType="com.lqs.domain.Role">
+            <id column="r_id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+    </resultMap>
+    <select id="findAll2" resultMap="userMap">
+        select * , r.id r_id from user u, role r where r.id=u.role_id;
+    </select>
+
+</mapper>

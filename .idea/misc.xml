@@ -2,6 +2,8 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Mvc_Spring" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring-Mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring-Mybatis-Anno" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Aop" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Mvc" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_mvc" />
@@ -11,6 +13,7 @@
     <file type="web" url="file://$PROJECT_DIR$/SpringMvc_Exception" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMvc_interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/SpringTx" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -27,6 +30,11 @@
         <option value="$PROJECT_DIR$/Spring_Aop/pom.xml" />
         <option value="$PROJECT_DIR$/SpringTx/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Tx/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Mybatis-Anno/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-startquict/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
       </list>
     </option>
   </component>

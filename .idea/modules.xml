@@ -4,12 +4,17 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JdbcTemplateTest/JdbcTemplateTest.iml" filepath="$PROJECT_DIR$/JdbcTemplateTest/JdbcTemplateTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mvc_Spring/Mvc_Spring.iml" filepath="$PROJECT_DIR$/Mvc_Spring/Mvc_Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Mybatis/Spring-Mybatis.iml" filepath="$PROJECT_DIR$/Spring-Mybatis/Spring-Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Mybatis-Anno/Spring-Mybatis-Anno.iml" filepath="$PROJECT_DIR$/Spring-Mybatis-Anno/Spring-Mybatis-Anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMvc_Exception/SpringMvc_Exception.iml" filepath="$PROJECT_DIR$/SpringMvc_Exception/SpringMvc_Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMvc_base_test/SpringMvc_base_test.iml" filepath="$PROJECT_DIR$/SpringMvc_base_test/SpringMvc_base_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMvc_interceptor/SpringMvc_interceptor.iml" filepath="$PROJECT_DIR$/SpringMvc_interceptor/SpringMvc_interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Aop/Spring_Aop.iml" filepath="$PROJECT_DIR$/Spring_Aop/Spring_Aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Tx/Spring_Tx.iml" filepath="$PROJECT_DIR$/Spring_Tx/Spring_Tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" filepath="$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-startquict/spring-boot-startquict.iml" filepath="$PROJECT_DIR$/spring-boot-startquict/spring-boot-startquict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
     </modules>
   </component>
 </project>

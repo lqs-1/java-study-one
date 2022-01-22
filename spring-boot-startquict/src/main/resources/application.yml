@@ -1,0 +1,40 @@
+# 定义普通属性
+server:
+  port: 8081
+
+spring:
+  main:
+    banner-mode: off
+
+# 定义字符串属性,不加引号的话转义字符就没作用，加了就会转意思
+country: lqs
+country2:
+  name: "lqs"
+
+# 定义数字类型
+mun: 2343
+
+# 定义数组,两种方式
+list:
+  - 1
+  - 2
+  - 3
+  - 4
+
+list1: [1,2,3,4]
+
+# 定义数组对象, 两种方法
+list2:
+  - name: lqs
+    age: 12
+  - name: sql
+    age: 21
+
+list3: [{name:lqs,age:12},{name:sql,age:21}]
+
+
+datasource:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/test
+  username: lqs
+  password: lqs
