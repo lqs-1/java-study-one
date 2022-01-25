@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -15,6 +16,7 @@
         <module name="SpringMvc_Exception" />
         <module name="Spring_Aop" />
         <module name="Spring_Tx" />
+        <module name="Mybatis-plus-01" />
         <module name="JdbcTemplateTest" />
         <module name="Mvc_Spring" />
         <module name="SpringMvc_interceptor" />
@@ -24,6 +26,7 @@
     <bytecodeTargetLevel>
       <module name="JdbcTemplateTest" target="1.5" />
       <module name="Mvc_Spring" target="1.8" />
+      <module name="Mybatis-plus-01" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-startquict" target="1.8" />
       <module name="Spring-Mybatis" target="1.8" />

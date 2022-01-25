@@ -10,123 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Mybatis_Anno_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Mybatis_Anno_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Mybatis_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Mybatis_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/java/com/lqs/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/java/com/lqs/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/java/com/lqs/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/java/com/lqs/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/resources/mybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/test/java/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis-Anno/src/test/java/MybatisTestRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/java/com/lqs/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/java/com/lqs/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/java/com/lqs/domain/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/java/com/lqs/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/java/com/lqs/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/java/com/lqs/handler/TypeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/java/com/lqs/service/ServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/resources/Mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/resources/com/lqs/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-Mybatis/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/lqs/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/lqs/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-startquict/src/main/java/com/lqs/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-startquict/src/main/java/com/lqs/controller/SpringBootController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-startquict/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/java/com/lqs/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/resources/jdbc-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/resources/lqs/com/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/resources/mybatis-config-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/webapp/pages/find.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/main/webapp/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/main/java/com/lqs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/test/java/test/SpringMybatisPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/test/java/test/TestMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-plus-01/src/test/java/test/TestMybatisPlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,9 +44,9 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JavaScript File" />
-        <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -187,7 +90,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mybatis-plus-01/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -199,11 +102,11 @@
       <recent name="com.lqs.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mybatis-plus-01/src/main/resources" />
       <recent name="$PROJECT_DIR$/ssm/src/main/resources" />
       <recent name="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/resources" />
       <recent name="$PROJECT_DIR$/Spring-Mybatis/src/main/resources/com/lqs/mapper" />
       <recent name="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/aop" />
-      <recent name="$PROJECT_DIR$/Spring_Aop/src/main/java/com/lqs/defualt/proxy/cglib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/resources/com/lqs/mapper" />
@@ -222,7 +125,7 @@
       <recent name="com.lqs.config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.test2">
+  <component name="RunManager" selected="JUnit.SpringMybatisPlus">
     <configuration name="UserController" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.web.UserController" />
       <module name="spring_dataSource" />
@@ -236,80 +139,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMybatisPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-plus-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SpringMybatisPlus" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTestRole.findRoleUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-Mybatis-Anno" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTestRole" />
-      <option name="METHOD_NAME" value="findRoleUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.findOneToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-Mybatis-Anno" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
-      <option name="METHOD_NAME" value="findOneToOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis" />
+    <configuration name="SpringMybatisPlus.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-plus-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lqs" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.MybatisTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SpringMybatisPlus" />
+      <option name="METHOD_NAME" value="testSelectList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis" />
+    <configuration name="TestMybatisPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-plus-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lqs" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.MybatisTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestMybatisPlus" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatisPlus.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-plus-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestMybatisPlus" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootMybatisApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis" />
+    <configuration name="TestMybatisPlus.testFindAllq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-plus-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lqs" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.SpringBootMybatisApplicationTests" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestMybatisPlus" />
+      <option name="METHOD_NAME" value="testFindAllq" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -469,24 +384,24 @@
     </configuration>
     <list>
       <item itemvalue="Application.UserController" />
-      <item itemvalue="JUnit.MybatisTest.findOneToOne" />
-      <item itemvalue="JUnit.MybatisTestRole.findRoleUser" />
-      <item itemvalue="JUnit.MybatisTest.test1" />
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Maven.clean" />
       <item itemvalue="Spring Boot.SpringBootStartquictApplication" />
       <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
-      <item itemvalue="JUnit.SpringBootMybatisApplicationTests.test1" />
-      <item itemvalue="JUnit.MybatisTest.test2" />
+      <item itemvalue="JUnit.TestMybatisPlus.testFindAll" />
+      <item itemvalue="JUnit.TestMybatisPlus.testFindAllq" />
+      <item itemvalue="JUnit.TestMybatisPlus" />
+      <item itemvalue="JUnit.SpringMybatisPlus.testSelectList" />
+      <item itemvalue="JUnit.SpringMybatisPlus" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.test2" />
-        <item itemvalue="JUnit.MybatisTest.test1" />
-        <item itemvalue="JUnit.SpringBootMybatisApplicationTests.test1" />
-        <item itemvalue="JUnit.MybatisTestRole.findRoleUser" />
-        <item itemvalue="JUnit.MybatisTest.findOneToOne" />
+        <item itemvalue="JUnit.SpringMybatisPlus" />
+        <item itemvalue="JUnit.TestMybatisPlus.testFindAll" />
+        <item itemvalue="JUnit.SpringMybatisPlus.testSelectList" />
+        <item itemvalue="JUnit.TestMybatisPlus" />
+        <item itemvalue="JUnit.TestMybatisPlus.testFindAllq" />
       </list>
     </recent_temporary>
   </component>
@@ -556,6 +471,7 @@
       <workItem from="1642399826917" duration="5454000" />
       <workItem from="1642485929631" duration="1269000" />
       <workItem from="1642488010775" duration="2098000" />
+      <workItem from="1643093555345" duration="5361000" />
     </task>
     <servers />
   </component>
