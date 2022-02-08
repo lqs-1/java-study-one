@@ -15,7 +15,7 @@ public class MybatisTest {
 
     @Test
     public void test1(){
-        List<User> mapperAll = userMapper.findAll();
+        List<User> mapperAll = userMapper.selectList(null);
         for (User user : mapperAll) {
             System.out.println(user);
         }

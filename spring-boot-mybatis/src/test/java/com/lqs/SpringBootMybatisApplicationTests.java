@@ -16,7 +16,7 @@ class SpringBootMybatisApplicationTests {
 
     @Test
     public void test1(){
-        List<User> mapperAll = userMapper.findAll();
+        List<User> mapperAll = userMapper.selectList(null);
         System.out.println(mapperAll);
     }
 
