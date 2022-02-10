@@ -1,15 +1,11 @@
 package com.lqs.controller;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lqs.domain.User;
 import com.lqs.servicce.UserService;
 import com.lqs.util.R;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 
 /*
