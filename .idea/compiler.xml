@@ -10,6 +10,7 @@
         <module name="SpringMvc_base_test" />
         <module name="spring-boot-mybatis" />
         <module name="Spring_mvc" />
+        <module name="spring-boot-mybatis-plus" />
         <module name="ssm" />
         <module name="spring-boot-startquict" />
         <module name="Spring-Mybatis" />
@@ -28,6 +29,7 @@
       <module name="Mvc_Spring" target="1.8" />
       <module name="Mybatis-plus-01" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-mybatis-plus" target="1.8" />
       <module name="spring-boot-startquict" target="1.8" />
       <module name="Spring-Mybatis" target="1.8" />
       <module name="Spring-Mybatis-Anno" target="1.8" />
@@ -36,6 +38,7 @@
       <module name="Spring_Mvc" target="1.8" />
       <module name="Spring_mvc" target="1.8" />
       <module name="Spring_Tx" target="1.8" />
+      <module name="springboot-mybatis-mp" target="1.8" />
       <module name="SpringMvc" target="1.5" />
       <module name="SpringMvc_base_test" target="1.8" />
       <module name="SpringMvc_Exception" target="1.8" />
@@ -47,7 +50,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-mybatis" options="-parameters" />
+      <module name="spring-boot-mybatis-plus" options="-parameters" />
       <module name="spring-boot-startquict" options="-parameters" />
+      <module name="springboot-mybatis-mp" options="-parameters" />
     </option>
   </component>
 </project>
