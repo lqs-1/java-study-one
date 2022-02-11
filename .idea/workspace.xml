@@ -10,24 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/pages/books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/elementui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/elementui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/pages/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/pages/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/test/java/com/lqs/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/test/java/com/lqs/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +111,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lqs.config" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="diao" />
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringBootMybatisPlusApplication">
     <configuration name="UserController" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -397,6 +390,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.UserController" />
+      <item itemvalue="JUnit.UserServiceTest.testFindAll" />
+      <item itemvalue="JUnit.UserServiceTest.deleteById" />
+      <item itemvalue="JUnit.UserServiceTest.insert" />
+      <item itemvalue="JUnit.UserServiceTest.update" />
+      <item itemvalue="JUnit.UserServiceTest.getPage" />
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Maven.clean" />
       <item itemvalue="Spring Boot.SpringBootStartquictApplication" />
@@ -404,11 +402,6 @@
       <item itemvalue="Spring Boot.SpringbootMybatisMpApplication" />
       <item itemvalue="Spring Boot.SpringBootMybatisPlusApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
-      <item itemvalue="JUnit.UserServiceTest.testFindAll" />
-      <item itemvalue="JUnit.UserServiceTest.deleteById" />
-      <item itemvalue="JUnit.UserServiceTest.insert" />
-      <item itemvalue="JUnit.UserServiceTest.update" />
-      <item itemvalue="JUnit.UserServiceTest.getPage" />
     </list>
     <recent_temporary>
       <list>
@@ -497,7 +490,9 @@
       <workItem from="1644383353963" duration="463000" />
       <workItem from="1644383835767" duration="2330000" />
       <workItem from="1644392397281" duration="77000" />
-      <workItem from="1644392997528" duration="14441000" />
+      <workItem from="1644392997528" duration="14770000" />
+      <workItem from="1644544696388" duration="3102000" />
+      <workItem from="1644548305186" duration="7861000" />
     </task>
     <servers />
   </component>
