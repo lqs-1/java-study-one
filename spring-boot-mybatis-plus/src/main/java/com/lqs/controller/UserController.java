@@ -1,5 +1,6 @@
 package com.lqs.controller;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.lqs.domain.User;
 import com.lqs.servicce.UserService;
 import com.lqs.util.R;
@@ -54,11 +55,10 @@ public class UserController {
         return new R(userService.delete(id));
     }
 
-    @GetMapping("page/{page}")
-    public R paginator(@PathVariable int page){
-//        IPage<User> paginator = userService.getPaginator(page, 2);
-//        return paginator.getRecords();
-        return new R(true, userService.getPaginator(page, 2).getRecords());
+    @GetMapping("page/{current_page}/{page_size}")
+    public R paginator(@PathVariable int current_page, @PathVariable int page_size, User user){
+        IPage<User> paginator = userService.getPaginator(current_page, page_size, user);
+        return new R(true, paginator);
     }
 
 

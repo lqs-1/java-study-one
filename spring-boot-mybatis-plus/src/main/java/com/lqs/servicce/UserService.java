@@ -12,5 +12,5 @@ public interface UserService extends IService<User> {
     Boolean delete(int id);
     User getById(int id);
     List<User> getAll();
-    IPage<User> getPaginator(int currentPage, int page);
+    IPage<User> getPaginator(int currentPage, int page, User user);
 }

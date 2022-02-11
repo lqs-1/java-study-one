@@ -60,9 +60,9 @@ public class UserServiceTest {
         }
     }
 
-    @Test
-    void getPage() {
-        IPage<User> paginator = userService.getPaginator(2, 3);
-        System.out.println(paginator.getPages());
-    }
+//    @Test
+//    void getPage() {
+//        IPage<User> paginator = userService.getPaginator(2, 3);
+//        System.out.println(paginator.getPages());
+//    }
 }

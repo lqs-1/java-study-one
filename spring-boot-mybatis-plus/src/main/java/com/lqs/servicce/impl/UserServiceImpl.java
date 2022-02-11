@@ -1,11 +1,13 @@
 package com.lqs.servicce.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lqs.domain.User;
 import com.lqs.mapper.UserMapper;
 import com.lqs.servicce.UserService;
+import org.apache.logging.log4j.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,8 +44,12 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     @Override
-    public IPage<User> getPaginator(int currentPage, int page) {
+    public IPage<User> getPaginator(int currentPage, int page, User user) {
+        LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>();
+        lambdaQueryWrapper.like(user.getId() >= 0, User::getId, user.getId());
+        lambdaQueryWrapper.like(Strings.isNotEmpty(user.getName()), User::getName, user.getName());
+        lambdaQueryWrapper.like(user.getMoney() >= 0, User::getMoney, user.getMoney());
         IPage page1 = new Page(currentPage, page);
-        return userMapper.selectPage(page1, null);
+        return userMapper.selectPage(page1, lambdaQueryWrapper);
     }
 }
