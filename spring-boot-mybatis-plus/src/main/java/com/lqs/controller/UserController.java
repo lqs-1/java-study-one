@@ -33,9 +33,10 @@ public class UserController {
     }
 
     @PostMapping
-    public R addUser(@RequestBody User user){
+    public R addUser(@RequestBody User user) throws Exception {
 //        Boolean insert = userService.insert(user);
 //        return insert;
+        if (user.getName().equals("123")) throw new Exception();
         return new R(userService.insert(user));
     }
 
