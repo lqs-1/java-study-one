@@ -1,0 +1,22 @@
+# 多环境配置
+
+# 应用配置
+# 主配置
+spring:
+  profiles:
+    active: dev # 选择开发环境的配置
+---
+
+# 设置多环境
+# 选配一
+server:
+  port: 2222 # 配置的测试环境的端口
+spring:
+  profiles: test # 测试环境配置的名称
+
+---
+# 选配二
+server:
+  port: 1111 # 配置的开发环境的端口
+spring:
+  profiles: dev # 开发环境配置的名称
