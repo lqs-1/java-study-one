@@ -44,6 +44,7 @@
 <!--    </bean>-->
 
 
+<!--    自定义的异常处理器在这里申明，只需要把自己定义好的异常处理器的全限定名放到容器中就可以了-->
     <bean id="myExceptionResolver" class="com.lqs.resolver.MyExceptionResolver"/>
 
 </beans>

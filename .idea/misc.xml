@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/Mybatis-plus-01/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-logger/pom.xml" />
       </list>
     </option>
   </component>

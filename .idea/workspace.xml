@@ -10,18 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-config/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-config/src/main/resources/application-devMVC.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-config/src/main/resources/application-pro.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-config/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-logger/src/main/java/com/lqs/controller/BaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-logger/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_Exception/target/classes/com/lqs/resolver/MyExceptionResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_Exception/target/classes/com/lqs/resolver/MyExceptionResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_Exception/target/classes/springMvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_Exception/target/classes/springMvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMvc_base_test/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Aop/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Aop/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Aop/target/classes/com/lqs/aop/MyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Aop/target/classes/com/lqs/aop/MyAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Tx/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Tx/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Tx/target/classes/com/lqs/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Tx/target/classes/com/lqs/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution />
@@ -84,7 +95,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -119,7 +130,7 @@
       <command value="diao" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootConfigApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootLoggerApplication">
     <configuration name="UserController" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.web.UserController" />
       <module name="spring_dataSource" />
@@ -283,6 +294,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootLoggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-logger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.SpringBootLoggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-mybatis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.SpringBootMybatisApplication" />
@@ -416,6 +434,7 @@
       <item itemvalue="Spring Boot.SpringBootMybatisPlusApplication" />
       <item itemvalue="Spring Boot.SpringBootConfigApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
+      <item itemvalue="Spring Boot.SpringBootLoggerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -506,7 +525,7 @@
       <workItem from="1644392997528" duration="14770000" />
       <workItem from="1644544696388" duration="3102000" />
       <workItem from="1644548305186" duration="10104000" />
-      <workItem from="1644627387362" duration="8830000" />
+      <workItem from="1644627387362" duration="12816000" />
     </task>
     <servers />
   </component>

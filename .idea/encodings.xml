@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-boot-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-logger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-startquict/src/main/java" charset="UTF-8" />

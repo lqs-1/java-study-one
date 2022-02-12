@@ -17,8 +17,8 @@
 
     <!--
     声明式事务控制：
-        xml
-        注解
+        xml: 除了正文第一行和最后一行，剩下的都是xml配置方式
+        注解： 第一行和最后一行是配置注解事务控制的，中间的平台事务管理器是公用的
     -->
 
 
@@ -62,6 +62,9 @@
 <!--    <aop:config>-->
 <!--        <aop:advisor advice-ref="transactionInterceptor" pointcut="execution(* com.lqs.service..*.*(..))"/>-->
 <!--    </aop:config>-->
+
+
+
 
     <tx:annotation-driven transaction-manager="dataSourceTransactionManager"/>
 

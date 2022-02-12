@@ -23,6 +23,7 @@
         <module name="Mvc_Spring" />
         <module name="SpringMvc_interceptor" />
         <module name="Spring-Mybatis-Anno" />
+        <module name="spring-boot-logger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="Mvc_Spring" target="1.8" />
       <module name="Mybatis-plus-01" target="1.8" />
       <module name="spring-boot-config" target="1.8" />
+      <module name="spring-boot-logger" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-plus" target="1.8" />
       <module name="spring-boot-startquict" target="1.8" />
@@ -52,6 +54,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-config" options="-parameters" />
+      <module name="spring-boot-logger" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatis-plus" options="-parameters" />
       <module name="spring-boot-startquict" options="-parameters" />
