@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/spring-boot-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/pages/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/pages/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/templates/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/config/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -73,7 +76,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
@@ -86,18 +89,18 @@
       <recent name="com.lqs.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/config" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources" />
-      <recent name="$PROJECT_DIR$/Mybatis-plus-01/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/spring-boot-mp/src/main/resources" />
       <recent name="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/resources/com/lqs/mapper" />
       <recent name="$PROJECT_DIR$/Spring-Mybatis-Anno/src/main/resources" />
       <recent name="$PROJECT_DIR$/Spring-Mybatis/src/main/resources" />
-      <recent name="$PROJECT_DIR$/SpringMvc_base_test/src/main/webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -189,7 +192,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.testFindAll" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="spring-boot-mybatis-plus" />
       <extension name="coverage">
         <pattern>
@@ -271,6 +274,13 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="SpringBootConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.SpringBootConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-mybatis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.SpringBootMybatisApplication" />
@@ -281,6 +291,8 @@
     <configuration name="SpringBootMybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-mybatis-plus" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.MpApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -400,6 +412,7 @@
       <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
       <item itemvalue="Spring Boot.SpringbootMybatisMpApplication" />
       <item itemvalue="Spring Boot.SpringBootMybatisPlusApplication" />
+      <item itemvalue="Spring Boot.SpringBootConfigApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
     </list>
     <recent_temporary>
@@ -408,7 +421,6 @@
         <item itemvalue="JUnit.UserServiceTest.update" />
         <item itemvalue="JUnit.UserServiceTest.insert" />
         <item itemvalue="JUnit.UserServiceTest.deleteById" />
-        <item itemvalue="JUnit.UserServiceTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -492,6 +504,7 @@
       <workItem from="1644392997528" duration="14770000" />
       <workItem from="1644544696388" duration="3102000" />
       <workItem from="1644548305186" duration="10104000" />
+      <workItem from="1644627387362" duration="2062000" />
     </task>
     <servers />
   </component>

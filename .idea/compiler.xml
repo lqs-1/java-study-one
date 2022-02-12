@@ -28,6 +28,7 @@
       <module name="JdbcTemplateTest" target="1.5" />
       <module name="Mvc_Spring" target="1.8" />
       <module name="Mybatis-plus-01" target="1.8" />
+      <module name="spring-boot-config" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-plus" target="1.8" />
       <module name="spring-boot-startquict" target="1.8" />
@@ -49,6 +50,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-config" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatis-plus" options="-parameters" />
       <module name="spring-boot-startquict" options="-parameters" />
