@@ -2,9 +2,10 @@
 
 # 应用配置
 # 主配置
+# 加载的时候，先加载group，然后加载active， 后加载的可以覆盖先加载的
 spring:
   profiles:
-    active: @profile.active@ # 选择开发环境的配置
+    active: test # 选择开发环境的配置
     group:
       "dev": devDB,devMVC
       "pro": proDB,proMVC
