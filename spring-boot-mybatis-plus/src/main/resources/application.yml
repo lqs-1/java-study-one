@@ -1,4 +1,19 @@
 
+# 配置文件分类：
+# springboot中有4级配置文件
+# 1级： file：config/application.yml 最高
+# 2级： file: application.yml
+# 3级： classpath: config/application.yml
+# 4级： classpath: application.yml 最低
+
+# 一级和二级的配置文件都放在打包好的jar包同级的位置，三级和四级的配置文件都放在项目中的资源文件中
+# 三级和四级用于系统开发阶段设置通用属性，
+#  3级用于项目经理进行整体项目属性调控
+#  4级用于程序员调试
+#  1级用于运维经理进行线上整体项目部署方案调控
+#  2级用于运维人员使用的
+
+
 spring:
   datasource:
     druid:
@@ -7,9 +22,6 @@ spring:
       username: lqs
       password: lqs
 
-mybatis-plus:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 
 

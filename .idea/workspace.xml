@@ -11,11 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/java/com/lqs/servicce/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/pages/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/main/resources/static/pages/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/test/java/com/lqs/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-plus/src/test/java/com/lqs/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,13 +128,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,7 +491,7 @@
       <workItem from="1644392397281" duration="77000" />
       <workItem from="1644392997528" duration="14770000" />
       <workItem from="1644544696388" duration="3102000" />
-      <workItem from="1644548305186" duration="7861000" />
+      <workItem from="1644548305186" duration="10104000" />
     </task>
     <servers />
   </component>

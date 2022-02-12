@@ -45,11 +45,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     @Override
     public IPage<User> getPaginator(int currentPage, int page, User user) {
-        LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>();
-        lambdaQueryWrapper.like(user.getId() >= 0, User::getId, user.getId());
-        lambdaQueryWrapper.like(Strings.isNotEmpty(user.getName()), User::getName, user.getName());
-        lambdaQueryWrapper.like(user.getMoney() >= 0, User::getMoney, user.getMoney());
+//        LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>();
+//        lambdaQueryWrapper.like(user.getId() >0, User::getId, user.getId());
+//        lambdaQueryWrapper.like(Strings.isNotEmpty(user.getName()), User::getName, user.getName());
+//        lambdaQueryWrapper.like(user.getMoney() > 0, User::getMoney, user.getMoney());
         IPage page1 = new Page(currentPage, page);
-        return userMapper.selectPage(page1, lambdaQueryWrapper);
+        return userMapper.selectPage(page1, null);
     }
 }
