@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring_Tx/Spring_Tx.iml" filepath="$PROJECT_DIR$/Spring_Tx/Spring_Tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" filepath="$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" filepath="$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-configuration/spring-boot-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-configuration/spring-boot-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-logger/spring-boot-logger.iml" filepath="$PROJECT_DIR$/spring-boot-logger/spring-boot-logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" />

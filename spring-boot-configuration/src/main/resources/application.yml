@@ -1,0 +1,13 @@
+# 宽松绑定
+# 实体在使用配置的属性的时候，配置文件中的变量名可以随便写，不一定和实体中的变量一样
+# 唯一的要求就是字母都一样，因为springboot在匹配的时候，自动匹配字母，并且忽略 - 和 _
+# 只有@configurationproperties注解可以使用，prefix的时候，用小写，大写就会报错
+servers:
+  ipAdress: 127.0.0.1
+  port: 5678
+  timeout: -1
+  day: 3
+  file: 3
+
+datasource:
+  driverClassName: com.mysql.jdbc.driver0
