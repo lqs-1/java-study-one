@@ -23,8 +23,9 @@ public class ServerConfig {
     private String ipAddress;
     @Max(value = 6666, message = "最大越界")
     @Min(value = 1234, message = "最小越界")
-    private int port;
+    private Integer port;
     private Long timeout;
+
 
     /*
     * 常用的计量单位
@@ -36,5 +37,12 @@ public class ServerConfig {
     private Duration day;
     @DataSizeUnit(DataUnit.GIGABYTES)
     private DataSize file;
+
+//    public ServerConfig(){
+////        获取数据类型
+//        System.out.println(day.getClass().getName());
+//    }
+
+
 
 }

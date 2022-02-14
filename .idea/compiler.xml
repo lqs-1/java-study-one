@@ -24,6 +24,7 @@
         <module name="Mvc_Spring" />
         <module name="SpringMvc_interceptor" />
         <module name="Spring-Mybatis-Anno" />
+        <module name="spring-boot-test" />
         <module name="spring-boot-logger" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,7 @@
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-plus" target="1.8" />
       <module name="spring-boot-startquict" target="1.8" />
+      <module name="spring-boot-test" target="1.8" />
       <module name="Spring-Mybatis" target="1.8" />
       <module name="Spring-Mybatis-Anno" target="1.8" />
       <module name="Spring_Aop" target="1.8" />
@@ -61,6 +63,7 @@
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatis-plus" options="-parameters" />
       <module name="spring-boot-startquict" options="-parameters" />
+      <module name="spring-boot-test" options="-parameters" />
       <module name="springboot-mybatis-mp" options="-parameters" />
     </option>
   </component>

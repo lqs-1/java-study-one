@@ -10,17 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ecb0d0-7d12-4546-acf2-28835bc30444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-configuration/src/main/java/com/lqs/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_73_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_73_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_73_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_73_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_73_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_46_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_73_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/lqs/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/lqs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/lqs/ConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/lqs/PropertiesAndArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/lqs/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/lqs/WebTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/lqs/config/TestConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-configuration/src/main/java/com/lqs/config/ServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-configuration/src/main/java/com/lqs/config/ServerConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +144,7 @@
       <command value="diao" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootConfigurationApplication">
+  <component name="RunManager" selected="JUnit.RedisTest.getRedis">
     <configuration name="UserController" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.web.UserController" />
       <module name="spring_dataSource" />
@@ -140,62 +158,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus" />
+    <configuration name="RedisTest.getRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.service.*" />
+          <option name="PATTERN" value="com.lqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lqs.service" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="deleteById" />
+      <option name="PACKAGE_NAME" value="com.lqs" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.RedisTest" />
+      <option name="METHOD_NAME" value="getRedis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.getPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus" />
+    <configuration name="RedisTest.setRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.service.*" />
+          <option name="PATTERN" value="com.lqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lqs.service" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="getPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lqs.service" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="com.lqs" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.RedisTest" />
+      <option name="METHOD_NAME" value="setRedis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,17 +217,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus" />
+    <configuration name="WebTest.setRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqs.service.*" />
+          <option name="PATTERN" value="com.lqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lqs.service" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.lqs" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.WebTest" />
+      <option name="METHOD_NAME" value="setRedis(org.springframework.data.redis.core.RedisTemplate)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testContentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.WebTest" />
+      <option name="METHOD_NAME" value="testContentType(org.springframework.test.web.servlet.MockMvc)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.WebTest" />
+      <option name="METHOD_NAME" value="testJson(org.springframework.test.web.servlet.MockMvc)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -323,6 +355,13 @@
     <configuration name="SpringBootStartquictApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-startquict" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.SpringBootStartquictApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.SpringBootTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -425,10 +464,6 @@
     <list>
       <item itemvalue="Application.UserController" />
       <item itemvalue="JUnit.UserServiceTest.testFindAll" />
-      <item itemvalue="JUnit.UserServiceTest.deleteById" />
-      <item itemvalue="JUnit.UserServiceTest.insert" />
-      <item itemvalue="JUnit.UserServiceTest.update" />
-      <item itemvalue="JUnit.UserServiceTest.getPage" />
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Maven.clean" />
       <item itemvalue="Spring Boot.SpringBootStartquictApplication" />
@@ -436,16 +471,23 @@
       <item itemvalue="Spring Boot.SpringbootMybatisMpApplication" />
       <item itemvalue="Spring Boot.SpringBootMybatisPlusApplication" />
       <item itemvalue="Spring Boot.SpringBootConfigApplication" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
       <item itemvalue="Spring Boot.SpringBootLoggerApplication" />
       <item itemvalue="Spring Boot.SpringBootConfigurationApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
+      <item itemvalue="Spring Boot.SpringBootTestApplication" />
+      <item itemvalue="JUnit.WebTest.testJson" />
+      <item itemvalue="JUnit.WebTest.testContentType" />
+      <item itemvalue="JUnit.WebTest.setRedis" />
+      <item itemvalue="JUnit.RedisTest.setRedis" />
+      <item itemvalue="JUnit.RedisTest.getRedis" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest.getPage" />
-        <item itemvalue="JUnit.UserServiceTest.update" />
-        <item itemvalue="JUnit.UserServiceTest.insert" />
-        <item itemvalue="JUnit.UserServiceTest.deleteById" />
+        <item itemvalue="JUnit.RedisTest.getRedis" />
+        <item itemvalue="JUnit.RedisTest.setRedis" />
+        <item itemvalue="JUnit.WebTest.setRedis" />
+        <item itemvalue="JUnit.WebTest.testContentType" />
+        <item itemvalue="JUnit.WebTest.testJson" />
       </list>
     </recent_temporary>
   </component>
@@ -529,7 +571,9 @@
       <workItem from="1644392997528" duration="14770000" />
       <workItem from="1644544696388" duration="3102000" />
       <workItem from="1644548305186" duration="10104000" />
-      <workItem from="1644627387362" duration="18190000" />
+      <workItem from="1644627387362" duration="18368000" />
+      <workItem from="1644721804391" duration="359000" />
+      <workItem from="1644745444703" duration="7696000" />
     </task>
     <servers />
   </component>

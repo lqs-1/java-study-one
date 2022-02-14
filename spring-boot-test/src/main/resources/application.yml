@@ -1,0 +1,24 @@
+test:
+  prop: testValue
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/ssm
+      username: lqs
+      password: lqs
+  redis:
+    host: localhost
+    port: 6379
+    database: 4
+
+# 数据随机值
+test1:
+  id: ${random.int}
+  name: ${random.value}
+  money: ${random.int(3000,5000)}
+  uuid: ${random.uuid}
+
+
+# redis配置
