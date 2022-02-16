@@ -8,10 +8,40 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/ssm
       username: lqs
       password: lqs
+#  配置redis
   redis:
     host: localhost
     port: 6379
     database: 4
+#    redis客服端实现技术，有两种，lettuce和jedis， 默认就是lettuce，内置的，如果要用jedis，需要导入jedis的坐标
+#    两种实现技术都有各自的详细配置
+#    jedis和lettuce的区别（lettuce好）：
+    # Jedis和Lettuce都是Redis Client
+    # Jedis 是直连模式，在多个线程间共享一个 Jedis 实例时是线程不安全的，存在线程安全问题
+    # 如果想要在多线程环境下使用 Jedis，需要使用连接池，
+    # 每个线程都去拿自己的 Jedis 实例，当连接数量增多时，物理连接成本就较高了。
+
+    # Lettuce的连接是基于Netty的，连接实例可以在多个线程间共享，线程安全，
+    # 所以，一个多线程的应用可以使用同一个连接实例，而不用担心并发线程的数量。
+    # 当然这个也是可伸缩的设计，一个连接实例不够的情况也可以按需增加连接实例。
+    # 通过异步的方式可以让我们更好的利用系统资源，而不用浪费线程等待网络或磁盘I/O。
+    # Lettuce 是基于 netty 的，netty 是一个多线程、事件驱动的 I/O 框架，
+    # 所以 Lettuce 可以帮助我们充分利用异步的优势。
+
+#    client-type: lettuce
+#    lettuce:
+#      pool:
+#        max-active: 16
+    client-type: jedis
+    jedis:
+      pool:
+        max-active: 16
+  data:
+    mongodb:
+      uri: mongodb://localhost/db1
+
+# 配置mongo
+
 
 # 数据随机值
 test1:
