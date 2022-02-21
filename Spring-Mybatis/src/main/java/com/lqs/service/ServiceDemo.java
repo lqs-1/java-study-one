@@ -23,6 +23,14 @@ public class ServiceDemo {
         SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
         SqlSession sqlSession = sessionFactory.openSession();
         UserDao mapper = sqlSession.getMapper(UserDao.class);
+
+
+        List<User> userList = mapper.findAll();
+        for (User user : userList) {
+            System.out.println(user);
+        }
+
+
         // 固化sql
 //        List<User> userList = mapper.findAll();
 
@@ -85,14 +93,14 @@ public class ServiceDemo {
 //        for (User user : userList) {
 //            System.out.println(user);
 //        }
-        RoleDao mapper1 = sqlSession.getMapper(RoleDao.class);
+//        RoleDao mapper1 = sqlSession.getMapper(RoleDao.class);
 //        List<Role> roleList = mapper1.findAll();
 //        for (Role role : roleList) {
 //            System.out.println(role);
 //        }
 
-        Role role = mapper1.findOne(1);
-        System.out.println(role);
+//        Role role = mapper1.findOne(1);
+//        System.out.println(role);
 
     }
 
