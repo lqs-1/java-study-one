@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    引入ElementUI样式-->
+    <link rel="stylesheet" href="../ElementUI/index.css">
+<!--    引入vue，引入ElementUI样式，需要vue框架才能使用-->
+    <script src="../ElementUI/vue.js"></script>
+<!--    引入ElementUI组件库-->
+    <script src="../ElementUI/index.js"></script>
+</head>
+<body>
+<div id="app">
+    <el-pagination
+            background
+            layout="prev, pager, next"
+            :total="1000">
+    </el-pagination></div>
+
+<script>
+    new Vue({
+        el:'#app',
+        data: {
+            tableData: [
+                {data:"2012.1.1", name:"lqs", address:"上海"},  // json数据
+                {data:"2012.1.1", name:"lqs", address:"上海"}
+            ]
+        }
+    });
+</script>
+</body>
+</html>

@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/health_parent/health_backend" />
     <file type="web" url="file://$PROJECT_DIR$/health_parent/health_service_provider" />
+    <file type="web" url="file://$PROJECT_DIR$/health_parent/untitled" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,7 +12,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
