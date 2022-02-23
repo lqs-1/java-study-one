@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b126ec15-e096-46db-86b1-ff087eb2fb58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/lqs/controller/CheckItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/lqs/service/CheckItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/lqs/mapper/CheckItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/lqs/service/impl/CheckItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/lqs/mapper/CheckItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_backend_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_backend_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_service_provider_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_service_provider_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/logs/access_log.2022-02-21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b126ec15-e096-46db-86b1-ff087eb2fb58" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +146,7 @@
       <workItem from="1645513249994" duration="1030000" />
       <workItem from="1645514429204" duration="7921000" />
       <workItem from="1645535070366" duration="243000" />
+      <workItem from="1645576723214" duration="85000" />
     </task>
     <servers />
   </component>
