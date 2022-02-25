@@ -42,6 +42,7 @@
 <!--    扫mapper包-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.lqs.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
     </bean>
 
 
@@ -51,7 +52,7 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 <!--    配置事务增强-->
-    <tx:advice id="txAdvice">
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="*"/>
         </tx:attributes>

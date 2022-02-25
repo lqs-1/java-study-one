@@ -8,8 +8,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/dubbo_service_provider/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo_interface/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo_web/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_interfacer/pom.xml" />
       </list>
     </option>
   </component>

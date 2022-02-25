@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efddcc7a-77e0-48c3-9d65-f54936a302e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/src/main/java/com/lqs/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka/eureka-server/src/main/java/com/lqs/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_buffer_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_codec_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_common_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_handler_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_resolver_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_transport_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_63_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_client_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_client_5_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_framework_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_framework_5_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_recipes_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_recipes_5_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interface/src/main/java/com/lqs/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/java/com/lqs/service/impl/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/java/com/lqs/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/java/com/lqs/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/java/com/lqs/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health/health_parent/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health/health_parent/health_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="25azWirdeQvM4zFhQyTfWIGA9iJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ssm_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ssm:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8d14f290-ebfd-412d-8699-6d49c36aecb0" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44551" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efddcc7a-77e0-48c3-9d65-f54936a302e2" name="Default Changelist" comment="" />
+      <created>1645780018701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645780018701</updated>
+      <workItem from="1645780019822" duration="781000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

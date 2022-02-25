@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="dubbo_service_provider.war">
+    <root id="archive" name="dubbo_service_provider-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="dubbo_service_provider:war exploded" />
     </root>
   </artifact>
