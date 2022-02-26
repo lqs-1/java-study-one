@@ -5,7 +5,7 @@ import org.mybatis.spring.annotation.MapperScan;
 
 import java.util.List;
 
-@MapperScan
+
 public interface UserMapper {
     List<User> findAll();
 }

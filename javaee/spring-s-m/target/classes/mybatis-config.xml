@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--读取properties配置文件-->
+<!--    <properties resource="classpath:jdbc.properties"/>-->
+
+<!--    定义别名-->
+    <typeAliases>
+        <typeAlias type="com.lqs.domain.User" alias="user"/>
+    </typeAliases>
+
+<!--    配置环境-->
+<!--    <environments default="def">-->
+<!--        <environment id="def">-->
+<!--            <transactionManager type="JDBC"></transactionManager>-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value="${jdbc.driver}"/>-->
+<!--                <property name="url" value="${jdbc.url}"/>-->
+<!--                <property name="username" value="${jdbc.username}"/>-->
+<!--                <property name="password" value="${jdbc.password}"/>-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+
+<!--    扫映射文件-->
+    <mappers>
+        <mapper resource="com/lqs/mapper/UserMapper.xml"/>
+    </mappers>
+
+</configuration>
+

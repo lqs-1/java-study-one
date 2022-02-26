@@ -1,0 +1,11 @@
+#
+#spring:
+#  application:
+#    name: userserver
+#  cloud:
+#    nacos:
+#      server-addr: localhost:8848  # 服务端地址
+#      config:
+#        file-extension: yaml
+#      discovery:
+#        service: ${spring.application.name}

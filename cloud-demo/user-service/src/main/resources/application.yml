@@ -6,6 +6,27 @@ spring:
     username: lqs
     password: lqs
     driver-class-name: com.mysql.cj.jdbc.Driver
+# nacos客服端配置，服务器在机子上下载好了的
+  application:
+    name: user-server
+  cloud:
+    nacos:
+      server-addr: localhost:8848  # 服务端地址
+#      discovery:
+#        cluster-name: HZ  # 集群名称
+#        namespace: 49018ffd-6724-45ba-9fc8-48dde1c3245b
+
+
+# eureka客户端配置
+#spring:
+#  application:
+#    name: user-server
+
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10086/eureka
 
 logging:
   level:

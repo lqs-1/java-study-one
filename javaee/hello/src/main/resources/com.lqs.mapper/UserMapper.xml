@@ -5,7 +5,7 @@
 
 
 <mapper namespace="com.lqs.mapper.UserMapper">
-    <select id="findAll" resultType="com.lqs.domain.User">
+    <select id="findAll" resultType="user">
         select * from user
     </select>
 </mapper>

@@ -5,64 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93cfb916-41bc-4574-9872-9ed0751cc257" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/java/com/lqs/order/web/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/java/com/lqs/user/userservice/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud-demo/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/src/main/java/com/lqs/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/lqs/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_buffer_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_codec_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_common_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_handler_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_resolver_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_transport_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_63_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_client_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_client_5_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_framework_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_framework_5_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_recipes_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_recipes_5_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interface/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interface/src/main/java/com/lqs/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/java/com/lqs/service/impl/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/java/com/lqs/service/impl/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/java/com/lqs/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/java/com/lqs/controller/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health/health_parent/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health/health_parent/health_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/hello/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/webapp/WEB_INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/resources/com.lqs.mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/resources/com.lqs.mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/com.lqs.mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/com.lqs.mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello.war" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com.lqs.mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com.lqs.mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,29 +87,94 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqs.eureka.EurekaApplication" />
+    <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="19795552-ec70-4bfe-b312-0b5915e302f5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="33981" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.EurekaApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -134,6 +187,8 @@
       <workItem from="1645759136034" duration="561000" />
       <workItem from="1645759729897" duration="293000" />
       <workItem from="1645771755763" duration="11000" />
+      <workItem from="1645789445151" duration="2491000" />
+      <workItem from="1645792261619" duration="634000" />
     </task>
     <servers />
   </component>
@@ -151,5 +206,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.SocketException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -36,7 +36,7 @@
     <!--    mapper接口扫包-->
     <bean id="mapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.lqs.mapper"/>
-        <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
+<!--        <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>-->
     </bean>
 
 <!--事务管理器-->

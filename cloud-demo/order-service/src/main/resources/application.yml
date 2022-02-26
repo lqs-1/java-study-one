@@ -1,3 +1,22 @@
+# erueka和nacos
+# erueka中的服务消费者只能主动去注册中心询问服务状态，而nacos中的服务消费者既可以主动询问，也可以有nacos推送，两者并存
+# ribbon负载均衡
+
+# nacos配置管理：
+# 在nacos管理页面选择配置管理进行新建
+# 命名方式：服务名字-环境.yaml这种就是带环境的配置，服务名字.yaml这种就是不带环境的配置，俗称共有配置，不管什么环境都会带上的配置
+# 要使用nacos配置管理，必须微服务模块中创建一个bootstrap.yml的配置文件，这个配置文件用于表明nacos的地址和服务信息
+# 而且bootstrap.yml和application.yml中的配置不要重复
+# application.yml的优先级最低，然后是服务名字.yaml，服务名字-环境.yaml最高
+# 使用nacos配置还需要导入对应坐标
+# 使用nacos配置的属性的时候，关于热部署（即时生效）；第一种，在使用Value注解的地方使用RefreshScope注解，第二种在使用ConfigurationProperties注解自动装配的时候，是需要将对应的Bean添加到spring容器
+
+
+# 集群：修改nacos/config/cluster.conf.example,先复制这个文件成cluster.conf，然后修改里面example下面的地址，改成目标地址:端口
+# 修改application.properties:修改ip和端口号对应，将多个nacos的application.properties都修改了，还有数据库页创建出来
+# 利用nginx反向代理这些nacos
+
+
 server:
   port: 8082
 spring:
@@ -6,9 +25,59 @@ spring:
     username: lqs
     password: lqs
     driver-class-name: com.mysql.cj.jdbc.Driver
+#    nacos客户端配置
+#  修改权重,虽然nacos的服务选择规则可以随机选择，但是有一些服务在性能比较差的机子上，所以配置权重，可以修改访问频率，权重越小访问频率越低，权重在nacos管理集群页面修改
+  application:
+    name: order-server
+  cloud:
+    nacos:
+      server-addr: localhost:8848  # nacos服务端地址
+#      discovery:
+#        cluster-name: HZ  # 集群名称，代指杭州
+        # 命名空间。将一些服务隔离，比如有一些服务要在生产环境使用，有些在开发环境中使用，那么就是说不同的命名空间的服务不能使用，只能使用同一个命名空间的服务，先在nacos管理页面中创建命名空间，然后在这个配置中配置此前服务放在哪一个命名空间
+#        namespace: 49018ffd-6724-45ba-9fc8-48dde1c3245b
+        # 以下配置就是设置这个服务是否是临时实例，默认是临时
+        # 临时：如果是临时，那么，服务提供者就是主动向nacos发送心跳检测，有时间限制的发送，通过这种凡是，来告诉nacos自己是否还活着
+        # 非临时：服务提供者不发送心跳检测，而是由nacos主动地来询问服务状态，如果检测到服务发生变化，就会主动将变化后的服务推送给服务消费者
+#        ephemeral: false
+
+# nacos服务负载均衡的配置，只是对对应的微服务有作用, 在启动类里面配置的对所有微服务都有效
+#  user-server:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule  # 优先选择同集群的微服务实例并且同集群相同实例随机选择，在集群实例全部挂掉之后，就回去别的集群选择，
+
+
+
+
+
+
+# eureka客户端配置
+#spring:
+#  application:
+#    name: order-server
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10086/eureka
+#  user-server:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  # eureka的随机规则
+
+# 开启饥饿加载，默认是懒加载，懒加载是指在第一次访问的时候加载服务
+# 饥饿加载是指，在启动的时候加载服务
+
+
+ribbon:
+  eager-load:
+    enabled: true  # 是否开启饥饿加载
+    clients:   # 使用饥饿加载的服务，是一个列表，可以添加多个
+      - user-server
+
 
 logging:
   level:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+

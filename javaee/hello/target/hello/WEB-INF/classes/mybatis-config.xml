@@ -24,7 +24,7 @@
 <!--    </environments>-->
 
     <mappers>
-        <mapper resource="classpath:com/lqs/mapper/UserMapper.xml"/>
+        <mapper resource="com/lqs/mapper/UserMapper.xml"/>
     </mappers>
 
 </configuration>

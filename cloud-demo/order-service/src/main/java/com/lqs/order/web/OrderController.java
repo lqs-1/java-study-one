@@ -26,7 +26,7 @@ public class OrderController {
         // 根据id查询订单并返回
         Order order = orderService.queryOrderById(orderId);
         // 远程调用
-        User user = restTemplate.getForObject("http://127.0.0.1:8081/user/" + order.getUserId(), User.class);
+        User user = restTemplate.getForObject("http://user-server/user/" + order.getUserId(), User.class);
         order.setUser(user);
         return order;
     }
