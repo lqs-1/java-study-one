@@ -1,5 +1,6 @@
 package com.lqs.order.pojo;
 
+import com.lqs.feign.pojo.User;
 import lombok.Data;
 
 @Data

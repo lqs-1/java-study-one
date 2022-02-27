@@ -17,6 +17,17 @@
 # 利用nginx反向代理这些nacos
 
 
+# RestTemplate和Feign技术，Feign是代替TestTemplate实现远程调用的技术，feign自带ribbon负载均衡，先导入坐标，然后定义feign客户端接口，然后在controller中注入，之后当方法调用
+# 在配置类中使用@EnableFeignClients
+# 定义接口 @FeignClient("微服务名字")
+# @GetMapping("/user/{id}") 和springmvc的写法一样的
+# User findById(@PathVariable("id") int id); 和springmvc的写法一样的
+# 调用
+# feign日志配置,FULL.BASIC,NONE
+# feign性能优化，将feignclient接口和一些pojo单独抽成一个模块，让微服务调用,并且在EnableFeignClients注解里面指定对应的client（clients）或者指定对应包basePackage
+
+
+
 server:
   port: 8082
 spring:
@@ -51,7 +62,7 @@ spring:
 
 
 
-# eureka客户端配置
+# eureka客户端配置，在配置类中@EnableConfigurationProperties
 #spring:
 #  application:
 #    name: order-server
@@ -80,4 +91,8 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
-
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: BASIC
