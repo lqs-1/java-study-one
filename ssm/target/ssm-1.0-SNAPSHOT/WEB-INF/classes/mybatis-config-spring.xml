@@ -8,6 +8,6 @@
 
 
     <mappers>
-<!--        <mapper resource="lqs/com/mapper/UserMapper.xml"/>-->
+        <mapper resource="lqs/com/mapper/UserMapper.xml"/>
     </mappers>
 </configuration>

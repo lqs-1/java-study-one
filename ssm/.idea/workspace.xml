@@ -10,52 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efddcc7a-77e0-48c3-9d65-f54936a302e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaee/hello/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/spring-s-m/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/java/com/lqs/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaee/ssm/src/main/webapp/WEB_INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka/eureka-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/resources/com.lqs.mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/resources/com.lqs.mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/com.lqs.mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/com.lqs.mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/com/lqs/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello.war" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com.lqs.mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com.lqs.mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/com/lqs/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/hello/target/hello/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lqs/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaee/hello" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -201,6 +158,7 @@
       <workItem from="1645788537947" duration="5000" />
       <workItem from="1645788716555" duration="96000" />
       <workItem from="1645791963531" duration="296000" />
+      <workItem from="1645950093822" duration="332000" />
     </task>
     <servers />
   </component>
