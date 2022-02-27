@@ -1,0 +1,72 @@
+# 定义使用gateway网关，作用是
+# 1、解决跨域问题cors解决
+# 2、过滤请求或者响应，身份认证
+# 3、路由断言，根据不同的路径，或者不同的请求体，或者cookie等等来导向不同的服务
+
+# GatewayFilter是网关中提供的一种过滤器，可以对进入网关的请求和微服务的响应处理
+# 请求进入网关之后，对请求进行处理，或者是微服务响应处理
+# 定义方式有三种：
+#  1、每一个路由的filter,filters
+#  2、默认所有路由的filter,default-filters
+#  3、自定义filter,globalFilter
+
+# 前面两种filter不能做到复杂的业务逻辑处理
+# 自定义filter，实现GlobalFilter接口，实现里面的filter方法：
+#  第一个参数，ServerWebExchange：请求上下文，可以在里面获取request，response，还可以往里面存储东西，获取东西，编写整个业务逻辑的
+#  第二个参数，GateWayFilterChain：是一个过滤链，主要用于放行
+
+# 定义了GlobalFilter之后，使用Component放入spring容器中，然后再给这个过滤器设置一个优先级，通过Order注解或者Ordered接口实现是一样的
+
+# 在请求路由后，会将上面的三种过滤器，合并到一个过滤链中，然后依次执行
+#  order越小执行越靠前
+#  order相同的时候：defaultFilter>路由过滤器>GlobalFilter的执行顺序
+
+
+# 将gateway注册到nacos
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+# 配置网关
+    gateway:
+      routes: # 网关路由配置，是一个列表
+        - id: user-server # 路由id。自定义，随便写，唯一
+          uri: lb://user-server  # lb就是负载均衡，后面是服务名字，也可以直接用http：//x.x.x.x:xxx而不用lb
+          predicates: # 路由断言，也就是判断请求是否符合路由规则的条件,也是一个列表
+            - Path=/user/**
+          filters: #  这是这一个路由私有的过滤器，是一个列表
+            # 向这个路由添加一个请求头, 私有的
+#            - AddRequestHeader=lqs,liqisong
+        - id : order-server
+          uri: lb://order-server
+          predicates:
+            - Path=/order/**
+      # 向整个路由列表添加过滤器，这个是共有的
+      default-filters:
+        - AddRequestHeader=lqs,hahah
+
+
+      # 全局跨域处理
+      globalcors:
+        add-to-simple-url-handler-mapping: true  # 解决options请求拦截问题，默认false，默认这种请求会被网关拦截，options用于询问请求方式
+        cors-configurations:
+          '[/**]':  # 拦截哪些请求
+            allowedDrigins: # 允许哪些网站的跨域请求,列表
+              - "http://www.baidu.com"
+              - "http://www.xunlei.com"
+            allowedMethods:  # 允许哪些跨域的ajax请求方式,列表
+              - "GET"
+              - "POST"
+              - "PUT"
+              - "DELETE"
+              - "OPTIONS"
+            allowedHeaders: "*"  # 允许在请求中带上头信息
+            allowCredentials: true  # 是否允许带上cookie
+            maxAge: 300000  # 这次跨域检测的有效期，防止options反复请求，提高性能，
+
+
+
+server:
+  port: 10010

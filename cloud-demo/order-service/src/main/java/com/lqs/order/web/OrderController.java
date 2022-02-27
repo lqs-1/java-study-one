@@ -9,10 +9,7 @@ import com.lqs.order.pojo.Order;
 import com.lqs.order.service.OrderService;
 //import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("order")
@@ -31,8 +28,8 @@ public class OrderController {
 //   private RestTemplate restTemplate;
 
     @GetMapping("{orderId}")
-    public Order queryOrderByUserId(@PathVariable("orderId") Long orderId) {
-
+    public Order queryOrderByUserId(@PathVariable("orderId") Long orderId, @RequestHeader(value = "lqs") String lqs) {
+        System.out.println(lqs);
         // 根据id查询订单并返回
         Order order = orderService.queryOrderById(orderId);
         // 远程调用feign方式

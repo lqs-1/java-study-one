@@ -79,11 +79,11 @@ spring:
 # 饥饿加载是指，在启动的时候加载服务
 
 
-ribbon:
-  eager-load:
-    enabled: true  # 是否开启饥饿加载
-    clients:   # 使用饥饿加载的服务，是一个列表，可以添加多个
-      - user-server
+#ribbon:
+#  eager-load:
+#    enabled: true  # 是否开启饥饿加载
+#    clients:   # 使用饥饿加载的服务，是一个列表，可以添加多个
+#      - user-server
 
 
 logging:
