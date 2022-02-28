@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    #    主机
+    host: localhost
+    #    端口
+    port: 5672
+    #    虚拟主机
+    virtual-host: /
+    #    用户名
+    username: lqs
+    #    密码
+    password: lqs
