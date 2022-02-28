@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49e5f4f2-cce3-4358-9b0e-d6056190ca77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mq-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/SerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/Mqee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/test/java/com/lqs/ConsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-publisher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-publisher/src/main/java/com/lqs/MqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-publisher/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-publisher/src/test/java/com/lqs/PublisherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-publisher/src/test/java/com/lqs/PublisherTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/FanoutExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/example/Direct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/example/Fanout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/example/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/SerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/SerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/Mqee.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/Mqee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/com/lqs/mq/hehe/Mqee.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/com/lqs/mq/hehe/Mqee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-publisher/src/main/java/com/lqs/MqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-publisher/src/main/java/com/lqs/MqApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-publisher/src/test/java/com/lqs/PublisherTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-publisher/src/test/java/com/lqs/PublisherTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-publisher/target/test-classes/com/lqs/PublisherTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-publisher/target/test-classes/com/lqs/PublisherTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,34 +59,21 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.PublisherTest2.testSendMessage2SimpleQueue">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PublisherTest2.testConverter">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublisherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mq-publisher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lqs" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PublisherTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PublisherTest2.testConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mq-publisher" />
       <extension name="coverage">
         <pattern>
@@ -93,28 +83,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lqs" />
       <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PublisherTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mq-publisher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lqs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lqs" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest2" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="testConverter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublisherTest2.testSendMessage2SimpleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PublisherTest2.testDirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mq-publisher" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +99,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lqs" />
       <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest2" />
-      <option name="METHOD_NAME" value="testSendMessage2SimpleQueue" />
+      <option name="METHOD_NAME" value="testDirect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublisherTest.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PublisherTest2.testFanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mq-publisher" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +114,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lqs" />
-      <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest" />
-      <option name="METHOD_NAME" value="testConsumer" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest2" />
+      <option name="METHOD_NAME" value="testFanout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherTest2.testSendMessage2WorkQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mq-publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest2" />
+      <option name="METHOD_NAME" value="testSendMessage2WorkQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherTest2.testTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mq-publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.PublisherTest2" />
+      <option name="METHOD_NAME" value="testTopic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PublisherTest2.testSendMessage2SimpleQueue" />
-        <item itemvalue="JUnit.PublisherTest.testConsumer" />
-        <item itemvalue="JUnit.PublisherTest2" />
-        <item itemvalue="JUnit.PublisherTest2.test1" />
-        <item itemvalue="JUnit.PublisherTest" />
+        <item itemvalue="JUnit.PublisherTest2.testConverter" />
+        <item itemvalue="JUnit.PublisherTest2.testTopic" />
+        <item itemvalue="JUnit.PublisherTest2.testDirect" />
+        <item itemvalue="JUnit.PublisherTest2.testFanout" />
+        <item itemvalue="JUnit.PublisherTest2.testSendMessage2WorkQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +188,7 @@
       <workItem from="1645967006874" duration="1430000" />
       <workItem from="1646017385384" duration="2386000" />
       <workItem from="1646022083430" duration="1876000" />
+      <workItem from="1646035764395" duration="6593000" />
     </task>
     <servers />
   </component>

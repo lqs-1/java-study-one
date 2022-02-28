@@ -13,3 +13,7 @@ spring:
     username: lqs
     #    密码
     password: lqs
+
+    listener:
+      simple:
+        prefetch: 1 # 配置每次预取1条消息，默认是所有
