@@ -5,20 +5,172 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49e5f4f2-cce3-4358-9b0e-d6056190ca77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/FanoutExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/example/Direct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/example/Fanout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/exchange/example/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/SerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/SerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/Mqee.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/lqs/mq/hehe/Mqee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/com/lqs/mq/hehe/Mqee.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/com/lqs/mq/hehe/Mqee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-publisher/src/main/java/com/lqs/MqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-publisher/src/main/java/com/lqs/MqApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-publisher/src/test/java/com/lqs/PublisherTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-publisher/src/test/java/com/lqs/PublisherTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-publisher/target/test-classes/com/lqs/PublisherTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-publisher/target/test-classes/com/lqs/PublisherTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_service_provider_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/artifacts/dubbo_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__io_netty_netty_all_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_client_5_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_framework_5_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_curator_curator_recipes_5_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_dubbo_dubbo_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_aop_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_beans_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_context_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_core_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_expression_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_web_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/libraries/Maven__org_yaml_snakeyaml_1_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/src/main/java/com/lqs/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/target/classes/com/lqs/service/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/target/dubbo_interfacer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_interfacer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/java/com/lqs/service/impl/TestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/resources/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/classes/com/lqs/service/impl/TestServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/classes/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/service/impl/TestServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/animal-sniffer-annotations-1.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/audience-annotations-0.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/checker-qual-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/curator-client-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/curator-framework-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/curator-recipes-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/dubbo_interfacer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/error_prone_annotations-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/guava-27.0.1-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/j2objc-annotations-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/netty-3.10.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/netty-all-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spotbugs-annotations-3.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/dubbo_service_provider-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_service_provider/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/java/com/lqs/controller/WebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/resources/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/classes/com/lqs/controller/WebController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/classes/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/classes/com/lqs/controller/WebController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/animal-sniffer-annotations-1.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/audience-annotations-0.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/checker-qual-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/curator-client-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/curator-framework-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/curator-recipes-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/dubbo-2.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/dubbo_interfacer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/error_prone_annotations-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/guava-27.0.1-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/j2objc-annotations-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/netty-3.10.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/netty-all-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/snakeyaml-1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spotbugs-annotations-3.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-aop-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-beans-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-context-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-core-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-expression-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-jcl-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-web-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/spring-webmvc-5.3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/lib/zookeeper-3.4.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/dubbo_web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/tomcat/logs/access_log.2022-02-23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/dubbo_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_test/logs/iask.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +212,6 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="JUnit.PublisherTest2.testConverter">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PublisherTest2.testConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mq-publisher" />
       <extension name="coverage">
@@ -189,6 +328,7 @@
       <workItem from="1646017385384" duration="2386000" />
       <workItem from="1646022083430" duration="1876000" />
       <workItem from="1646035764395" duration="6593000" />
+      <workItem from="1646048499778" duration="32000" />
     </task>
     <servers />
   </component>
