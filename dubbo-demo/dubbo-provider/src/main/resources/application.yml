@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    name: provider
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    timeout: 6000
+  protocol:
+    name: dubbo
+    port: 28888
+  scan:
+    base-packages: com.example.serviceimpl
+
+server:
+  port: 8001
