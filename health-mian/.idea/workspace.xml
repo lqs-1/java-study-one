@@ -5,444 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6524ba-ee5b-485f-8f29-48821b52d302" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/src/main/java/com/example/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/src/main/java/com/example/serviceimpl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-consumer/src/main/java/com/example/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-provider/src/main/java/com/example/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-provider/src/main/java/com/example/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-provider/src/main/java/com/example/serviceimpl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/constant/MessageConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/entity/QueryPageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/CheckGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/CheckItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/OrderSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/Setmeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-interface/src/main/java/com/lqs/api/CheckItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/CheckItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/CheckItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/application-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/CheckItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/css/orderset(1).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/boxed-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/loginLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/logingBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/minilogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/pwd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/img/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/js/axios-0.18.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages/checkitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/elementui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/elementui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/java/com/lqs/controller/CheckItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/resources/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/css/orderset(1).css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/american-express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/avatar04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/avatar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/avatar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/avatar5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/boxed-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/boxed-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/cirrus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/loginLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/logingBg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/mestro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/minilogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/paypal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/photo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/photo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/photo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/photo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/pwd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user1-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user2-160x160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user3-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user4-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user5-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user6-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user7-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/user8-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/img/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/js/axios-0.18.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/pages/checkitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/pages/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/elementui/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/elementui/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/elementui/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/classes/com/lqs/controller/CheckItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/classes/com/lqs/controller/CheckItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/curvesapi-1.03.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/dubbo-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/health_common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/javassist-3.12.1.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/jersey-client-1.18.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/jersey-core-1.18.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/okhttp-3.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/okio-1.14.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/pagehelper-4.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/poi-3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/poi-ooxml-3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/poi-ooxml-schemas-3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/qiniu-java-sdk-7.2.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/slf4j-api-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-aspects-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-jms-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-security-acl-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-security-config-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-security-core-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-security-taglibs-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-security-web-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/css/orderset(1).css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/american-express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/avatar04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/avatar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/avatar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/avatar5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/boxed-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/boxed-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/cirrus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/loginLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/logingBg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/mestro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/minilogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/paypal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/photo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/photo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/photo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/photo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/pwd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user1-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user2-160x160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user3-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user4-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user5-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user6-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user7-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/user8-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/img/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/js/axios-0.18.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/pages/checkitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/pages/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/elementui/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/elementui/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/elementui/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/health_backed/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_backed/target/tomcat/logs/access_log.2022-03-01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/src/main/java/com/lqs/service/CheckItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/target/classes/com/lqs/service/CheckItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/target/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/java/com/lqs/mapper/CheckItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/java/com/lqs/service/CheckItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/resources/com/lqs/mapper/CheckItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/resources/spring-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/resources/spring-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/resources/spring-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/com/lqs/mapper/CheckItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/com/lqs/mapper/CheckItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/com/lqs/service/CheckItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/spring-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/spring-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/classes/spring-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/com/lqs/mapper/CheckItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/com/lqs/mapper/CheckItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/com/lqs/service/CheckItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/spring-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/spring-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/classes/spring-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/curvesapi-1.03.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/dubbo-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/dubbo-2.6.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/health_common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/javassist-3.12.1.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/jersey-client-1.18.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/jersey-core-1.18.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/okhttp-3.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/okio-1.14.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/pagehelper-4.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/poi-3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/poi-ooxml-3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/poi-ooxml-schemas-3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/qiniu-java-sdk-7.2.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/slf4j-api-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-aspects-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-jms-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-security-acl-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-security-config-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-security-core-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-security-taglibs-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-security-web-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/health_service_provider/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/health_service_provider/target/tomcat/logs/access_log.2022-03-01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/constant/MessageConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/entity/PageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/entity/QueryPageBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/entity/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/CheckGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/CheckItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/OrderSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/Permission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/Setmeal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/src/main/java/com/lqs/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/constant/MessageConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/entity/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/entity/QueryPageBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/entity/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/CheckGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/CheckItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/OrderSetting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/Permission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/Setmeal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/classes/com/lqs/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/htealth_common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/htealth_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../health_main/pom.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/health-interface/src/main/java/com/lqs/api/CheckGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/CheckGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/CheckGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/CheckGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages/checkgroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-common/target/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-common/target/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/src/main/java/com/lqs/api/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/src/main/java/com/lqs/api/CheckItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/classes/com/lqs/api/CheckItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/classes/com/lqs/api/CheckItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/CheckItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/CheckItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/CheckItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/CheckItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/CheckItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/CheckItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/CheckItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/CheckItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/CheckItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/service/CheckItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/service/CheckItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/CheckItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/CheckItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/CheckItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/CheckItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/service/CheckItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/service/CheckItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/tomcat/logs/access_log.2022-03-02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/classes/com/lqs/controller/CheckItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/classes/com/lqs/controller/CheckItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/controller/CheckItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/controller/CheckItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/tomcat/logs/access_log.2022-03-02" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution />
@@ -467,6 +81,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
   <component name="ProjectId" id="25moh8LyNdjITKBmMcAysLiPPXR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -480,18 +97,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/htealth-backed/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages" />
       <recent name="$PROJECT_DIR$/htealth-backed/src/main/resources" />
       <recent name="$PROJECT_DIR$/health-provider/src/main/resources" />
       <recent name="$PROJECT_DIR$/htealth-backed/src/main/webapp" />
       <recent name="$PROJECT_DIR$/health-common/src/main/java/com/lqs/constant" />
-      <recent name="$PROJECT_DIR$/health-common/src/main/java/com/lqs/pojo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.htealth-backed [tomcat7:run-war]">
@@ -558,8 +182,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.htealth-backed [tomcat7:run-war]" />
         <item itemvalue="Maven.health-provider [tomcat7:run-war]" />
+        <item itemvalue="Maven.htealth-backed [tomcat7:run-war]" />
       </list>
     </recent_temporary>
   </component>
@@ -574,6 +198,13 @@
       <workItem from="1646141742485" duration="7294000" />
       <workItem from="1646194128377" duration="5000" />
       <workItem from="1646194145875" duration="17232000" />
+      <workItem from="1646270745899" duration="1236000" />
+      <workItem from="1646276050632" duration="16000" />
+      <workItem from="1646276321254" duration="277000" />
+      <workItem from="1646278309112" duration="771000" />
+      <workItem from="1646279258106" duration="80000" />
+      <workItem from="1646279355548" duration="609000" />
+      <workItem from="1646290135380" duration="13373000" />
     </task>
     <servers />
   </component>

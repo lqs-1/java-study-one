@@ -1,2 +1,4 @@
+com/lqs/service/CheckGroupServiceImpl.class
+com/lqs/mapper/CheckGroupMapper.class
 com/lqs/mapper/CheckItemMapper.class
 com/lqs/service/CheckItemServiceImpl.class

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lqs.mapper.CheckGroupMapper">
+<!--    添加检查项-->
+<!--    <&#45;&#45; 获取自增id，并且赋值给对象的id属性 &ndash;&gt;-->
+    <insert id="addCheckGroup" parameterType="com.lqs.pojo.CheckGroup">
+        <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_checkgroup(code,name,helpCode,sex,remark,attention) values
+             (#{code},#{name},#{helpCode},#{sex},#{remark},#{attention})
+    </insert>
+
+<!--    添加检查组和检查项的对应关系-->
+    <insert id="addCheckGroupCheckItem" parameterType="map">
+        insert into t_checkgroup_checkitem(checkgroup_id, checkitem_id) values(#{checKGroupId},#{checkItemId})
+    </insert>
+
+
+    <select id="findCheckGroupBy" parameterType="String" resultType="com.lqs.pojo.CheckGroup">
+        select * from t_checkgroup
+        <if test="value != null and value != '' and value.length > 0">
+            where code=#{value} or name=#{value} or helpCode=#{value }
+        </if>
+        order by id desc
+    </select>
+
+<!--    删除检查组-->
+    <delete id="deleteCheckGroup" parameterType="java.lang.Integer">
+        delete from t_checkgroup where id=#{id}
+    </delete>
+<!--删除检查组和检查项的对应关系-->
+    <delete id="deleteCheckGroupCheckItem" parameterType="java.lang.Integer">
+        delete from t_checkgroup_checkitem where checkgroup_id=#{id}
+    </delete>
+
+<!--    根据id查询检查组-->
+    <select id="findCheckGroupById" parameterType="java.lang.Integer" resultType="com.lqs.pojo.CheckGroup">
+        select * from t_checkgroup where id=#{id}
+    </select>
+
+    <!--    根据id查询检查组中的检查项-->
+    <select id="findCheckGroupCheckItemById" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        select checkitem_id from t_checkgroup_checkitem where checkgroup_id=#{id}
+    </select>
+
+<!--    修改检查组-->
+    <update id="editCheckGroup" parameterType="com.lqs.pojo.CheckGroup">
+        update t_checkgroup
+        <set>
+            <if test="code != null">code=#{code},</if>
+            <if test="name != null">name=#{name},</if>
+            <if test="helpCode != null">helpCode=#{helpCode},</if>
+            <if test="sex != null">sex=#{sex},</if>
+            <if test="remark != null">remark=#{remark},</if>
+            <if test="attention != null">attention=#{attention},</if>
+        </set>
+        where id=#{id}
+    </update>
+</mapper>

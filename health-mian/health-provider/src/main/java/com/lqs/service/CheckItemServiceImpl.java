@@ -11,7 +11,13 @@ import com.lqs.pojo.CheckItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
+import java.util.List
+
+
+
+
+
+        ;
 
 
 @Service(interfaceClass = CheckItemService.class, version = "1.0")
@@ -58,5 +64,10 @@ public class CheckItemServiceImpl implements CheckItemService {
     @Override
     public void editCheckItem(CheckItem checkItem) {
         checkItemMapper.editCheckItem(checkItem);
+    }
+
+    @Override
+    public List<CheckItem> findAll() {
+        return checkItemMapper.findAll();
     }
 }

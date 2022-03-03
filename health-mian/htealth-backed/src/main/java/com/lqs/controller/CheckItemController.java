@@ -10,6 +10,8 @@ import com.lqs.entity.Result;
 import com.lqs.pojo.CheckItem;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping(value = "checkItem")
 public class CheckItemController {
@@ -79,6 +81,19 @@ public class CheckItemController {
             return new Result(false, MessageConstant.EDIT_CHECKITEM_FAIL);
         }
         return new Result(true, MessageConstant.EDIT_CHECKITEM_SUCCESS);
+    }
+
+    // 获取所有的检查项
+    @GetMapping("findAll.do")
+    public Result findAll(){
+        List<CheckItem> checkItemList;
+        try{
+            checkItemList = checkItemService.findAll();
+        }catch (Exception e){
+            e.printStackTrace();
+            return new Result(false, MessageConstant.QUERY_CHECKITEM_FAIL);
+        }
+        return new Result(true, MessageConstant.QUERY_CHECKITEM_SUCCESS, checkItemList);
     }
 
 
