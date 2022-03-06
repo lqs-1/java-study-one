@@ -80,8 +80,11 @@ public class CheckGroupServiceImpl implements CheckGroupService {
             }
         }
 
+    }
 
-
-
+    @Override
+    public List<CheckGroup> findAllCheckGroup() {
+        // 查询所有的检查组，只需要查一次
+        return checkGroupMapper.findAllCheckGroup();
     }
 }

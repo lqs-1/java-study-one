@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/health-provider" />
     <file type="web" url="file://$PROJECT_DIR$/htealth-backed" />
+    <file type="web" url="file://$PROJECT_DIR$/job-test" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

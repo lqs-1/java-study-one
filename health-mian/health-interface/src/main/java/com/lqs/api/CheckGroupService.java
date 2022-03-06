@@ -4,6 +4,7 @@ import com.lqs.entity.PageResult;
 import com.lqs.entity.QueryPageBean;
 import com.lqs.pojo.CheckGroup;
 
+import java.util.List;
 import java.util.Map;
 
 
@@ -17,4 +18,6 @@ public interface CheckGroupService {
    Map<String, Object> findCheckGroupById(Integer id);
 
     void editCheckGroup(CheckGroup checkGroup, Integer[] checkitemIds);
+
+    List<CheckGroup> findAllCheckGroup();
 }

@@ -11,6 +11,7 @@ import com.lqs.pojo.CheckGroup;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -75,6 +76,20 @@ public class CheckGroupController {
             return new Result(false, MessageConstant.EDIT_CHECKGROUP_FAIL);
         }
         return new Result(true, MessageConstant.EDIT_CHECKGROUP_SUCCESS);
+    }
+
+
+    // 查询所有的检查组，用于套餐添加和修改页面
+    @GetMapping(value = "findAll.do")
+    public Result findAllCheckGroup(){
+        List<CheckGroup > checkGroupList;
+        try{
+            checkGroupList = checkGroupService.findAllCheckGroup();
+        }catch (Exception e){
+            e.printStackTrace();
+            return new Result(false, MessageConstant.QUERY_CHECKGROUP_FAIL);
+        }
+        return new Result(true, MessageConstant.QUERY_CHECKGROUP_SUCCESS, checkGroupList);
     }
 
 }

@@ -17,8 +17,8 @@
 
 <!--    前后缀-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="suffix" value="jsp"/>
-        <property name="prefix" value="pages"/>
+        <property name="suffix" value=".jsp"/>
+        <property name="prefix" value="/"/>
     </bean>
 
 <!--    静态资源开放-->

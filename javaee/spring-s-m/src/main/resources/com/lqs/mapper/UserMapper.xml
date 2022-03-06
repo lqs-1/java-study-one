@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.lqs.mapper.UserMapper">
-    <select id="findAll" resultType="user">
-        select * from user
+    <select id="findByName" parameterType="com.lqs.domain.User" resultType="com.lqs.domain.User">
+        select * from user where username=#{username} and password=#{password}
     </select>
 </mapper>

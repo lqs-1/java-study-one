@@ -12,6 +12,7 @@
       <module>health-interface</module>
     <module>health-provider</module>
       <module>htealth-backed</module>
+      <module>job-test</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -31,11 +32,14 @@
     <mybatis.paginator.version>1.2.15</mybatis.paginator.version>
     <mysql.version>8.0.17</mysql.version>
     <druid.version>1.0.9</druid.version>
-    <commons-fileupload.version>1.3.1</commons-fileupload.version>
+    <commons-fileupload.version>1.4</commons-fileupload.version>
     <spring.security.version>5.0.5.RELEASE</spring.security.version>
     <poi.version>3.14</poi.version>
     <jedis.version>2.9.0</jedis.version>
     <quartz.version>2.2.1</quartz.version>
+
+
+    <aliyunoss.version>3.13.2</aliyunoss.version>
   </properties>
   <!--  依赖管理标签  必须加  -->
   <dependencyManagement>
@@ -156,6 +160,7 @@
         <version>${druid.version}</version>
       </dependency>
       <!--  文件上传组件  -->
+      <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
       <dependency>
         <groupId>commons-fileupload</groupId>
         <artifactId>commons-fileupload</artifactId>
@@ -177,10 +182,11 @@
         <version>1.18.1</version>
       </dependency>
       <dependency>
-        <groupId>com.qiniu</groupId>
-        <artifactId>qiniu-java-sdk</artifactId>
-        <version>7.2.0</version>
+        <groupId>com.aliyun.oss</groupId>
+        <artifactId>aliyun-sdk-oss</artifactId>
+        <version>${aliyunoss.version}</version>
       </dependency>
+
       <!-- POI报表 -->
       <dependency>
         <groupId>org.apache.poi</groupId>
@@ -192,6 +198,8 @@
         <artifactId>poi-ooxml</artifactId>
         <version>${poi.version}</version>
       </dependency>
+
+
       <dependency>
         <groupId>redis.clients</groupId>
         <artifactId>jedis</artifactId>

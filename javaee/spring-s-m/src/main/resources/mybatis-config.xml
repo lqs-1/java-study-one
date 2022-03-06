@@ -25,9 +25,9 @@
 <!--    </environments>-->
 
 <!--    扫映射文件-->
-    <mappers>
-        <mapper resource="com/lqs/mapper/UserMapper.xml"/>
-    </mappers>
+<!--    <mappers>-->
+<!--        <mapper resource="com/lqs/mapper/UserMapper.xml"/>-->
+<!--    </mappers>-->
 
 </configuration>
 

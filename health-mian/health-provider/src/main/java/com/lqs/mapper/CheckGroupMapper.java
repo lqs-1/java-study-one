@@ -21,4 +21,6 @@ public interface CheckGroupMapper {
     List<Integer> findCheckGroupCheckItemById(Integer id);
 
     void editCheckGroup(CheckGroup checkGroup);
+
+    List<CheckGroup> findAllCheckGroup();
 }

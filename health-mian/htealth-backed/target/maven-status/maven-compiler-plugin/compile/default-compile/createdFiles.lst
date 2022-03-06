@@ -1,2 +1,4 @@
+com/lqs/controller/OrderController.class
+com/lqs/controller/SetmealController.class
 com/lqs/controller/CheckGroupController.class
 com/lqs/controller/CheckItemController.class

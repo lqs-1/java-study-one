@@ -5,5 +5,6 @@ import com.lqs.domain.User;
 import java.util.List;
 
 public interface UserMapper {
-    List<User> findAll();
+
+    User findByName(User user);
 }

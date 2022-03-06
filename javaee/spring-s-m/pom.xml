@@ -15,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -99,9 +99,35 @@
       <version>2.0.7</version>
     </dependency>
 
+
+
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.12</version>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 
+
+
+
   <build>
+
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <groupId>org.apache.tomcat.maven</groupId>-->
+<!--        <artifactId>tomcat7-maven-plugin</artifactId>-->
+<!--        <version>2.2</version>-->
+<!--        <configuration>-->
+<!--          <port>8000</port>-->
+<!--          <path>/</path>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
+<!--    </plugins>-->
+
     <finalName>spring-s-m</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -109,6 +135,7 @@
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
         </plugin>
+
         <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>

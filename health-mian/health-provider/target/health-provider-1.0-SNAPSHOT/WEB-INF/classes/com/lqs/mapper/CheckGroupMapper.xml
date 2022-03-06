@@ -59,4 +59,10 @@
         </set>
         where id=#{id}
     </update>
+
+
+<!--    查询所有检查组-->
+    <select id="findAllCheckGroup" resultType="com.lqs.pojo.CheckGroup">
+        select * from t_checkgroup order by id desc
+    </select>
 </mapper>
