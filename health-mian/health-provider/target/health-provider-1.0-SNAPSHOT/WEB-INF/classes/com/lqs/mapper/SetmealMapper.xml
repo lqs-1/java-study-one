@@ -37,37 +37,7 @@
 
 
 
-<!--&lt;!&ndash;     多表查询&ndash;&gt;-->
-<!--    <resultMap id="setmealMap" type="com.lqs.pojo.Setmeal">-->
-<!--        <id property="id" column="id"/>-->
-<!--        <result property="name" column="name"/>-->
-<!--        <result property="code" column="code"/>-->
-<!--        <result property="helpCode" column="helpCode"/>-->
-<!--        <result property="sex" column="sex"/>-->
-<!--        <result property="age" column="age"/>-->
-<!--        <result property="price" column="price"/>-->
-<!--        <result property="remark" column="remark"/>-->
-<!--        <result property="attention" column="attention"/>-->
-<!--        <result property="img" column="img"/>-->
-<!--        <collection property="checkGroups" ofType="com.lqs.pojo.CheckGroup" column="id"-->
-<!--                    select="com.lqs.mapper.CheckGroupMapper.findCheckGroupById">-->
-
-<!--&lt;!&ndash;            <collection property="checkItems" ofType="com.lqs.pojo.CheckItem">&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="id" column="id"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="code" column="code"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="name" column="name"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="sex" column="sex"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="age" column="age"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="price" column="price"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="type" column="type"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="remark" column="remark"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                <result property="attention" column="attention"/>&ndash;&gt;-->
-<!--&lt;!&ndash;            </collection>&ndash;&gt;-->
-<!--        </collection>-->
-
-<!--    </resultMap>-->
-
-
+<!--多对多查询-->
     <resultMap id="baseResultMap" type="com.lqs.pojo.Setmeal">
         <id column="id" property="id"/>
         <result column="name" property="name"/>
@@ -80,7 +50,6 @@
         <result column="attention" property="attention"/>
         <result column="img" property="img"/>
     </resultMap>
-
     <!--配置多对多映射关系-->
     <resultMap id="findByIdResultMap" type="com.lqs.pojo.Setmeal" extends="baseResultMap">
         <!--column用于指定将哪个字段的值传递给第二条sql-->

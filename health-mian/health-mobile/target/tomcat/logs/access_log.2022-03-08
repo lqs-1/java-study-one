@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:08:39 +0800] "GET /plugins/vue/axios.min.map HTTP/1.1" 404 1001 http-bio-8084-exec-1 55
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:08:41 +0800] "GET /pages/setmeal.html HTTP/1.1" 304 - http-bio-8084-exec-3 12
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:08:42 +0800] "GET /plugins/vue/axios.min.map HTTP/1.1" 404 1001 http-bio-8084-exec-4 1
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:08:42 +0800] "GET /setmeal/getSetmeal.do HTTP/1.1" 200 317 http-bio-8084-exec-2 167
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:08:45 +0800] "GET /pages/setmeal_detail.html?id=24 HTTP/1.1" 304 - http-bio-8084-exec-6 3
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:08:46 +0800] "GET /plugins/vue/axios.min.map HTTP/1.1" 404 1001 http-bio-8084-exec-7 2
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:08:46 +0800] "GET /setmeal/findById.do?id=24 HTTP/1.1" 200 1271 http-bio-8084-exec-5 91
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:10:20 +0800] "GET /plugins/vue/axios.min.map HTTP/1.1" 404 1001 http-bio-8084-exec-10 1
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:10:22 +0800] "GET /pages/setmeal.html HTTP/1.1" 304 - http-bio-8084-exec-10 1
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:10:23 +0800] "GET /plugins/vue/axios.min.map HTTP/1.1" 404 1001 http-bio-8084-exec-1 1
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:10:23 +0800] "GET /setmeal/getSetmeal.do HTTP/1.1" 200 601 http-bio-8084-exec-10 22
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:10:27 +0800] "GET /pages/setmeal_detail.html?id=25 HTTP/1.1" 200 4309 http-bio-8084-exec-6 3
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:10:27 +0800] "GET /plugins/vue/axios.min.map HTTP/1.1" 404 1001 http-bio-8084-exec-6 0
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:09:10:27 +0800] "GET /setmeal/findById.do?id=25 HTTP/1.1" 200 1700 http-bio-8084-exec-5 47
