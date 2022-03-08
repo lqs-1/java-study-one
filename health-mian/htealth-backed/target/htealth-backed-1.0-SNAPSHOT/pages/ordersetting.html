@@ -35,7 +35,7 @@
                     <el-card class="box-card">
                         <div class="boxMain">
                             <el-button style="margin-bottom: 20px;margin-right: 20px" type="primary" @click="downloadTemplate()">模板下载</el-button>
-                            <el-upload action="/ordersetting/upload.do"
+                            <el-upload action="/order/upload.do"
                                        name="excelFile"
                                        :show-file-list="false"
                                        :on-success="handleSuccess"
@@ -186,16 +186,16 @@
                 },
 				//上传之前进行文件格式校验
                 beforeUpload(file){
-                    const isXLS = file.type === 'application/vnd.ms-excel';
-                    if(isXLS){
-                        return true;
-                    }
-                    const isXLSX = file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-                    if (isXLSX) {
-                        return true;
-                    }
-                    this.$message.error('上传文件只能是xls或者xlsx格式!');
-                    return false;
+                    // const isXLS = file.type === 'application/vnd.ms-excel';
+                    // if(isXLS){
+                    //     return true;
+                    // }
+                    // const isXLSX = file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+                    // if (isXLSX) {
+                    //     return true;
+                    // }
+                    // this.$message.error('上传文件只能是xls或者xlsx格式!');
+                    return true;
                 },
 				//下载模板文件
                 downloadTemplate(){
@@ -204,6 +204,7 @@
 				//上传成功提示
                 handleSuccess(response, file) {
                     if(response.flag){
+                        this.createdData()
                         this.$message({
                             message: response.message,
                             type: 'success'

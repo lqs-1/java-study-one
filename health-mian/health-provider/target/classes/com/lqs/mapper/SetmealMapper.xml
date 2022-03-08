@@ -26,5 +26,44 @@
             where code = #{value} or name = #{value}
         </if>
     </select>
+    
+    
+<!--    查询所有的套餐信息给移动端-->
+    <select id="findALlSetmeal" resultType="com.lqs.pojo.Setmeal">
+        select *
+        from t_setmeal;
+    </select>
+
+
+
+
+<!--多对多查询-->
+    <resultMap id="baseResultMap" type="com.lqs.pojo.Setmeal">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="helpCode" property="helpCode"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <result column="price" property="price"/>
+        <result column="remark" property="remark"/>
+        <result column="attention" property="attention"/>
+        <result column="img" property="img"/>
+    </resultMap>
+    <!--配置多对多映射关系-->
+    <resultMap id="findByIdResultMap" type="com.lqs.pojo.Setmeal" extends="baseResultMap">
+        <!--column用于指定将哪个字段的值传递给第二条sql-->
+        <collection property="checkGroups" ofType="com.lqs.pojo.CheckGroup"
+                    column="id"
+                    select="com.lqs.mapper.CheckGroupMapper.selectCheckGroupsBySetmealId"></collection>
+    </resultMap>
+
+
+    <!--根据套餐id查询套餐详情（包含基本信息、关联的检查组、检查项信息）-->
+    <select id="findById" parameterType="int" resultMap="findByIdResultMap">
+        select * from t_setmeal where id = #{id}
+    </select>
+
+
 
 </mapper>

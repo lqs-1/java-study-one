@@ -9,6 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 public interface SetmealService {
 
@@ -17,4 +18,8 @@ public interface SetmealService {
     void addSetmeal(Integer[] checkgroupIds, Setmeal setmeal);
 
     PageResult findBy(QueryPageBean queryPageBean);
+
+    List<Setmeal> findAllSetmeal();
+
+    Setmeal findById(Integer id);
 }

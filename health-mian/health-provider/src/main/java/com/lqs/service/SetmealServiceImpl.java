@@ -17,6 +17,7 @@ import redis.clients.jedis.JedisPool;
 
 import java.io.ByteArrayInputStream;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Service(interfaceClass = SetmealService.class, version = "1.0")
@@ -79,5 +80,17 @@ public class SetmealServiceImpl implements SetmealService {
         Page<Setmeal> setmeals = setmealMapper.findBy(queryString);
 
         return new PageResult(setmeals.getTotal(), setmeals.getResult());
+    }
+
+    // 给移动端返回所有的套餐
+    @Override
+    public List<Setmeal> findAllSetmeal() {
+        List<Setmeal> setmealList = setmealMapper.findALlSetmeal();
+        return setmealList;
+    }
+
+    @Override
+    public Setmeal findById(Integer id) {
+        return setmealMapper.findById(id);
     }
 }

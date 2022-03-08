@@ -13,6 +13,7 @@
     <module>health-provider</module>
       <module>htealth-backed</module>
       <module>job-test</module>
+    <module>health-mobile</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -37,8 +38,7 @@
     <poi.version>3.14</poi.version>
     <jedis.version>2.9.0</jedis.version>
     <quartz.version>2.2.1</quartz.version>
-
-
+    <ronglianyunsms.version>1.0.3</ronglianyunsms.version>
     <aliyunoss.version>3.13.2</aliyunoss.version>
   </properties>
   <!--  依赖管理标签  必须加  -->
@@ -181,6 +181,7 @@
         <artifactId>jersey-client</artifactId>
         <version>1.18.1</version>
       </dependency>
+      <!--      aliyunoss存储服务-->
       <dependency>
         <groupId>com.aliyun.oss</groupId>
         <artifactId>aliyun-sdk-oss</artifactId>
@@ -242,6 +243,15 @@
         <artifactId>xml-apis</artifactId>
         <version>1.4.01</version>
       </dependency>
+
+<!--      ronglianyun 短信服务-->
+      <dependency>
+        <groupId>com.cloopen</groupId>
+        <artifactId>java-sms-sdk</artifactId>
+        <version>${ronglianyunsms.version}</version>
+      </dependency>
+
+
     </dependencies>
   </dependencyManagement>
   <dependencies>

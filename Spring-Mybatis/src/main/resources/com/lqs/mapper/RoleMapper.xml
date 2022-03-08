@@ -12,6 +12,9 @@
             <result column="u_username" property="username"/>
         </collection>
     </resultMap>
+
+
+
     <select id="findAll" resultMap="roleMap">
         select r.id r_id,u.id u_id, r.name r_name, u.username u_username from role r, user u where r.id=u.role_id;
     </select>
