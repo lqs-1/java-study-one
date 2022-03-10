@@ -66,7 +66,7 @@ function checkIdCard(idCard){
 }
 
 var clock = '';//定时器对象，用于页面30秒倒计时效果
-var nums = 30;
+var nums = 60;
 var validateCodeButton;
 //基于定时器实现30秒倒计时效果
 function doLoop() {

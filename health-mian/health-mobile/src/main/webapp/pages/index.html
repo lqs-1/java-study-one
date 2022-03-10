@@ -22,7 +22,7 @@
         <div class="app">
             <!-- 页面头部 -->
             <div class="top-header">
-                <span class="f-left"><i class="icon-back" onclick="history.go(-1)"></i></span>
+                <span class="f-left"> <button onclick="getLoginPage()">登录</button></span>
                 <span class="center">传智健康</span>
                 <span class="f-right"><i class="icon-more"></i></span>
             </div>
@@ -116,6 +116,11 @@
             </div>
         </div>
         <script>
+            function getLoginPage(){
+                window.location.href="pages/login.html"
+            }
+
+
             $(function() {
                 var ht = $('.banner-item').find('img').eq(0).height()
                 var tg = $('.banner-item .item');

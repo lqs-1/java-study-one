@@ -113,10 +113,45 @@
                 methods:{
                     //发送验证码
                     sendValidateCode(){
+                        // 拿到用户输入的号码
+                        var telephone = this.orderInfo.telephone
+                        // 检测是否格式正确
+                        if (!checkTelephone(telephone)){
+                            this.$message.error("电话号码格式错误")
+                            return false
+                        }
+                        // 60秒倒计时
+                        validateCodeButton = $("#validateCodeButton")[0]
+                        clock = window.setInterval(doLoop, 1000);
+                        // 发送ajax请求索取验证码
+                        axios.get("/setmeal/getSmsCode.do?telephone=" + telephone).then((resp)=>{
+                            if (resp.data.flag){
+                                this.$message.success(resp.data.message)
+                            }else{
+                                this.$message.error(resp.data.message)
+                            }
+                        })
                     },
                     //提交预约
                     submitOrder(){
+                        // 拿到身份证号码
+                        var idCard = this.orderInfo.idCard
+                        // 检测是否符合格式
+                        if (!checkIdCard(idCard)){
+                            this.$message.error("身份证号码格式错误")
+                            return false
+                        }
+                        // 发送预约请求
+                        axios.post("/order/order.do", this.orderInfo).then((resp)=>{
+                            if (resp.data.flag){
+                                this.$message.success(resp.data.message)
+                                window.location.href = "orderSuccess.html?orderId=" + resp.data.data
+                            }else{
+                                this.$message.error(resp.data.message)
+                            }
+                        })
                     }
+
                 },
                 mounted(){
                     axios.get("/setmeal/findById.do?id=" + id).then((resp)=>{

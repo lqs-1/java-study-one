@@ -42,6 +42,8 @@ public class OssUtils {
         // 使用UUID生成文件主体名称
 //        String fileMainName = UUID.randomUUID().toString().replace("-", "");
 
+
+
         // 获取文件后缀
 //        String extensionName = originFileName.substring(originFileName.lastIndexOf("."));
 

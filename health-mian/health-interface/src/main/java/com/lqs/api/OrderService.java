@@ -1,7 +1,8 @@
 package com.lqs.api;
 
+import com.lqs.entity.Result;
+import com.lqs.pojo.Order;
 import com.lqs.pojo.OrderSetting;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.List;
@@ -13,4 +14,8 @@ public interface OrderService {
     List<Map> getOrderSettingBy(String date);
 
     void editNumberByDate(OrderSetting orderSetting);
+
+    Result addOrder(Map map) throws Exception;
+
+    Map<String, Object> findById(Integer id);
 }

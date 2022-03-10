@@ -90,6 +90,8 @@
         <artifactId>spring-test</artifactId>
         <version>${spring.version}</version>
       </dependency>
+
+
       <!--  dubbo相关  -->
       <dependency>
         <groupId>com.alibaba</groupId>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd
+        http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+">
+<!--
+springSecurity底层使用过滤器来使用的
+auto-config: 自动配置，如果设置为true，那么就代表自动应用springSecurity的一些默认配置，比如框架会提供一个默认的登录页面
+use-expressions: 表示是否使用springSecurity提供的表达式来描述权限
+
+-->
+    <security:http auto-config="true" use-expressions="true" >
+<!--        pattern配置拦截规则，/** 代表拦截所有请求-->
+<!--        access指定所需的访问角色或者访问权限-->
+        <security:intercept-url pattern="/**" access="hasRole('LIQISONG')" method="POST"/>
+    </security:http>
+
+<!--    认证管理器，用于处理认证操作-->
+    <security:authentication-manager>
+<!--        认证提供者，执行具体的认证操作-->
+        <security:authentication-provider>
+<!--            用于获取用户信息，提供给authentication-provider进行认证-->
+            <security:user-service>
+<!--                user:定义用户信息，可以指定用户名，密码，角色后期可以改为从数据库查询信息
+                    {noop}:表示当前使用的密码为明文
+-->
+                <security:user name="admin" authorities="LIQISONG" password="{noop}admin"/>
+            </security:user-service>
+        </security:authentication-provider>
+
+
+    </security:authentication-manager>
+
+</beans>

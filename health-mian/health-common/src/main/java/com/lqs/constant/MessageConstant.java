@@ -49,6 +49,7 @@ public class MessageConstant {
     public static final String QUERY_SETMEAL_FAIL = "查询套餐数据失败";
     public static final String SEND_VALIDATECODE_FAIL = "验证码发送失败";
     public static final String SEND_VALIDATECODE_SUCCESS = "验证码发送成功";
+    public static final String SEND_VALIDATECODE_FREQUENTLY = "发送过于频繁";
     public static final String SELECTED_DATE_CANNOT_ORDER = "所选日期不能进行体检预约";
     public static final String ORDER_FULL = "预约已满";
     public static final String HAS_ORDERED = "已经完成预约，不能重复预约";

@@ -157,5 +157,12 @@
       <groupId>com.cloopen</groupId>
       <artifactId>java-sms-sdk</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
+      <version>2.3.28</version>
+    </dependency>
   </dependencies>
+
+
 </project>

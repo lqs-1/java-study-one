@@ -24,4 +24,42 @@
     <select id="getOrderSettingByMonth" parameterType="map" resultType="com.lqs.pojo.OrderSetting">
         select * from t_ordersetting where orderDate between #{begin} and #{end}
     </select>
+
+<!--    根据日期获取ordersetting对象-->
+    <select id="findByOrderDate" parameterType="date" resultType="com.lqs.pojo.OrderSetting">
+        select * from t_ordersetting where orderDate=#{date}
+    </select>
+
+<!--    查询同一个同一天预约同一个的预约列表-->
+    <select id="findByCondition" parameterType="com.lqs.pojo.Order" resultType="com.lqs.pojo.Order">
+        select * from t_order where member_id=#{memberId} and setmeal_id=#{setmealId} and orderDate=#{orderDate}
+    </select>
+    
+<!--    保存预约-->
+    <insert id="add" parameterType="com.lqs.pojo.Order">
+        <selectKey order="AFTER" keyProperty="id" resultType="java.lang.Integer">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_order (member_id,orderDate,orderType,orderStatus,setmeal_id)
+        values (#{memberId},#{orderDate},#{orderType},#{orderStatus},#{setmealId});
+    </insert>
+
+    <update id="editReservationsByOrderDate" parameterType="map">
+        update t_ordersetting set reservations=#{reservations} where orderDate=#{orderDate}
+    </update>
+
+<!--      查询order-->
+    <resultMap id="findByIdResult" type="com.lqs.pojo.Order">
+        <id column="id" property="id"/>
+        <result column="member_id" property="memberId"/>
+        <result column="orderDate" property="orderDate"/>
+        <result column="orderType" property="orderType"/>
+        <result column="orderStatus" property="orderStatus"/>
+        <result column="setmeal_id" property="setmealId"/>
+    </resultMap>
+
+    <select id="findById" resultMap="findByIdResult" parameterType="java.lang.Integer">
+        select * from t_order where id=#{id}
+    </select>
+
 </mapper>

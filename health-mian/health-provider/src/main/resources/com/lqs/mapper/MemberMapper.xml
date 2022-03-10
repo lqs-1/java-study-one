@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lqs.mapper.MemberMapper">
+    <select id="findByTelephone" resultType="com.lqs.pojo.Member" parameterType="String">
+        select * from t_member where phoneNumber=#{telephone}
+    </select>
+
+    <insert id="add" parameterType="com.lqs.pojo.Member">
+        <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_member(name,phoneNumber,idCard,sex,regTime) values(#{name},#{phoneNumber},#{idCard},#{sex},#{regTime})
+    </insert>
+
+<!--    根据id查找会员-->
+    <select id="findById" resultType="com.lqs.pojo.Member" parameterType="java.lang.Integer">
+        select * from t_member where id=#{id}
+    </select>
+
+</mapper>

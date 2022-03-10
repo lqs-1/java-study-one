@@ -21,7 +21,7 @@
     <div class="app" id="app">
         <!-- 页面头部 -->
         <div class="top-header">
-            <span class="f-left"><i class="icon-back"></i></span>
+            <span class="f-left"><i class="icon-back" onclick="history.go(-1)"></i></span>
             <span class="center">传智健康</span>
             <span class="f-right"><i class="icon-more"></i></span>
         </div>
@@ -69,10 +69,12 @@
                     }
                     validateCodeButton = $("#validateCodeButton")[0];
                     clock = window.setInterval(doLoop, 1000); //一秒执行一次
-                    axios.post("/validateCode/send4Login.do?telephone=" + telephone).then((response) => {
-                        if(!response.data.flag){
+                    axios.get("/member/getSmsCode.do?telephone=" + telephone).then((response) => {
+                        if(response.data.flag){
                             //验证码发送失败
-                            this.$message.error('验证码发送失败，请检查手机号输入是否正确');
+                            this.$message.success(response.data.message);
+                        }else{
+                            this.$message.error(response.data.message)
                         }
                     });
                 },
@@ -83,10 +85,11 @@
                         this.$message.error('请输入正确的手机号');
                         return false;
                     }
-                    axios.post("/login/check.do",this.loginInfo).then((response) => {
+                    axios.post("/member/login.do",this.loginInfo).then((response) => {
                         if(response.data.flag){
                             //登录成功,跳转到index.html
-                            window.location.href="index.html";
+                            this.$message.success(response.data.message)
+                            window.location.href="/";
                         }else{
                             //失败，提示失败信息
                             this.$message.error(response.data.message);

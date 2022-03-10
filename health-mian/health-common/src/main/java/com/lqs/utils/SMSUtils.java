@@ -5,6 +5,8 @@ import com.aliyuncs.exceptions.ClientException;
 
 import com.cloopen.rest.sdk.BodyType;
 import com.cloopen.rest.sdk.CCPRestSmsSDK;
+import com.lqs.constant.MessageConstant;
+import com.lqs.entity.Result;
 
 import java.util.HashMap;
 import java.util.Set;
@@ -12,22 +14,17 @@ import java.util.Set;
 /**
  * 短信发送工具类
  */
-public class
-
-
-
-
-SMSUtils {
-	public static final String VALIDATE_CODE = "SMS_159620392";//发送短信验证码
-	public static final String ORDER_NOTICE = "SMS_159771588";//体检预约成功通知
+public class SMSUtils {
 
 	/**
 	 * 发送短信
+	 *
 	 * @param phoneNumbers
 	 * @param param
-	 * @throws ClientException
+	 * @return
+	 * @throws
 	 */
-	public static Boolean sendShortMessage(String templateCode,String phoneNumbers,String param) throws ClientException {
+	public static Result sendShortMessage(String phoneNumbers, String param) {
 		//生产环境请求地址：app.cloopen.com
 		String serverIp = "app.cloopen.com";
 		//请求端口
@@ -43,31 +40,30 @@ SMSUtils {
 		sdk.setAppId(appId);
 		sdk.setBodyType(BodyType.Type_JSON);
 		String to = phoneNumbers;
-		String templateId= templateCode;
+		String templateId = "1";
 		String[] datas = {param, "5"};
 //		String subAppend="1234";  //可选 扩展码，四位数字 0~9999
 //		String reqId="fadfafas";  //可选 第三方自定义消息id，最大支持32位英文数字，同账号下同一自然天内不允许重复
-		HashMap<String, Object> result = sdk.sendTemplateSMS(to,templateId,datas);
+		HashMap<String, Object> result = sdk.sendTemplateSMS(to, templateId, datas);
 //		HashMap<String, Object> result = sdk.sendTemplateSMS(to,templateId,datas,"","");
-		if("000000".equals(result.get("statusCode"))){
+		if ("000000".equals(result.get("statusCode"))) {
 			//正常返回输出data包体信息（map）
-			HashMap<String,Object> data = (HashMap<String, Object>) result.get("data");
+			HashMap<String, Object> data = (HashMap<String, Object>) result.get("data");
 			Set<String> keySet = data.keySet();
-			for(String key:keySet){
+			for (String key : keySet) {
 				Object object = data.get(key);
-				System.out.println(key +" = "+object);
+				System.out.println(key + " = " + object);
 			}
-			return true;
+			return new Result(true, MessageConstant.SEND_VALIDATECODE_SUCCESS);
 
-		}else{
+		} else {
 			//异常返回输出错误码和错误信息
-			System.out.println("错误码=" + result.get("statusCode") +" 错误信息= "+result.get("statusMsg"));
-			return false;
+			System.out.println("错误码=" + result.get("statusCode") + " 错误信息= " + result.get("statusMsg"));
+			return new Result(false, MessageConstant.SEND_VALIDATECODE_FAIL);
 		}
-	}
 
-
-	public static void main(String[] args) throws ClientException {
-		SMSUtils.sendShortMessage("1", "17398827615", "7654");
 	}
 }
+
+
+

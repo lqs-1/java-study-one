@@ -1,14 +1,13 @@
 package com.lqs.api;
 
+import com.aliyuncs.exceptions.ClientException;
 import com.lqs.entity.PageResult;
 import com.lqs.entity.QueryPageBean;
 import com.lqs.entity.Result;
 import com.lqs.pojo.Setmeal;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+
 import java.util.List;
 
 public interface SetmealService {
@@ -22,4 +21,5 @@ public interface SetmealService {
     List<Setmeal> findAllSetmeal();
 
     Setmeal findById(Integer id);
+
 }
