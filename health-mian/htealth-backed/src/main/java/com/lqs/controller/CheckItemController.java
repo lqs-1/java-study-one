@@ -8,6 +8,7 @@ import com.lqs.entity.PageResult;
 import com.lqs.entity.QueryPageBean;
 import com.lqs.entity.Result;
 import com.lqs.pojo.CheckItem;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -39,6 +40,7 @@ public class CheckItemController {
 
     // 删除检查项
     @GetMapping("delete.do")
+    @PreAuthorize("hasAnyAuthority('CHECKITEM_DELETE')") // 权限。没有删除权限的用户删除 的话，就会报错403，如果不处理就会抛出异常
     public Result deleteCheckItem(Integer id){
         // 先查询是否绑定在检查组
         // 方法就是查看中间表中是否有该检查项的id

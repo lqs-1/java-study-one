@@ -1,6 +1,5 @@
 package com.lqs.controller;
 
-
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.lqs.api.CheckGroupService;
 import com.lqs.constant.MessageConstant;
@@ -10,7 +9,6 @@ import com.lqs.entity.Result;
 import com.lqs.pojo.CheckGroup;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

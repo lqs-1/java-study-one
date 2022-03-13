@@ -31,7 +31,7 @@
 <!--    指定服务注册中心地址-->
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 <!--    批量扫描-->
-    <dubbo:annotation package="com.lqs.controller" />
+    <dubbo:annotation package="com.lqs" />
     <!--
         超时全局设置 10分钟
         check=false 不检查服务提供方，开发阶段建议设置为false
@@ -40,6 +40,7 @@
     <dubbo:consumer timeout="600000" check="false"/>
 
 
+<!--    多部分表单使用-->
     <bean id="multipartResolver"
           class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
         <!-- max upload size in bytes -->
@@ -54,6 +55,7 @@
     <mvc:default-servlet-handler/>
 
     <import resource="classpath:application-redis.xml"/>
+    <import resource="classpath:spring-security.xml"/>
     
     
 

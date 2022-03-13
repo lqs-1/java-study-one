@@ -14,11 +14,27 @@ auto-config: 自动配置，如果设置为true，那么就代表自动应用spr
 use-expressions: 表示是否使用springSecurity提供的表达式来描述权限
 
 -->
+
+    <!--       设置哪些页面不被拦截，比如自定义的登录页面,可以有多个security:http有规则的放在上面 -->
+    <security:http security="none" pattern="/pages/**"/>
+
+
+
     <security:http auto-config="true" use-expressions="true" >
 <!--        pattern配置拦截规则，/** 代表拦截所有请求-->
 <!--        access指定所需的访问角色或者访问权限-->
-        <security:intercept-url pattern="/**" access="hasRole('LIQISONG')" method="POST"/>
+<!--        method对应请求方法-->
+        <security:intercept-url pattern="/**" access="hasRole('LIQISONG')" method="GET"/>
+
+        <!--    自定义登录页面-->
+        <security:form-login login-page="/pages/index.html" login-processing-url="login.do" password-parameter="password" username-parameter="username" default-target-url="/pages/index.html" authentication-failure-url="/pages/fail.html"/>
+<!--        使用自定义的登录页面可以直接关闭csrf防护-->
+        <security:csrf disabled="false"/>
+<!--        定义logout-->
+        <security:logout invalidate-session="true" logout-url="logout.do" logout-success-url="/index.jsp"/>
     </security:http>
+
+
 
 <!--    认证管理器，用于处理认证操作-->
     <security:authentication-manager>
@@ -33,5 +49,12 @@ use-expressions: 表示是否使用springSecurity提供的表达式来描述权�
             </security:user-service>
         </security:authentication-provider>
     </security:authentication-manager>
+
+
+<!--    对密码进行加密-->
+<!--    指定密码加密对象-->
+    <bean id="cryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+
+
 
 </beans>

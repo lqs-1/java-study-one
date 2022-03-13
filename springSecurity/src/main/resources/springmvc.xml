@@ -14,24 +14,59 @@ auto-config: 自动配置，如果设置为true，那么就代表自动应用spr
 use-expressions: 表示是否使用springSecurity提供的表达式来描述权限
 
 -->
+
+    <!--       设置哪些页面不被拦截，比如自定义的登录页面,可以有多个security:http有规则的放在上面 -->
+    <security:http security="none" pattern="/pages/**"/>
+
+
+
     <security:http auto-config="true" use-expressions="true" >
 <!--        pattern配置拦截规则，/** 代表拦截所有请求-->
 <!--        access指定所需的访问角色或者访问权限-->
-        <security:intercept-url pattern="/**" access="hasRole('LIQISONG')" method="POST"/>
+<!--        method对应请求方法-->
+        <security:intercept-url pattern="/**" access="hasRole('LIQISONG')" method="GET"/>
+
+        <!--    自定义登录页面-->
+        <security:form-login login-page="/pages/index.html" login-processing-url="login.do" password-parameter="password" username-parameter="username" default-target-url="/pages/index.html" authentication-failure-url="/pages/fail.html"/>
+<!--        使用自定义的登录页面可以直接关闭csrf防护-->
+        <security:csrf disabled="false"/>
+<!--        定义logout-->
+        <security:logout invalidate-session="true" logout-url="logout.do" logout-success-url="/index.jsp"/>
     </security:http>
+
+
 
 <!--    认证管理器，用于处理认证操作-->
     <security:authentication-manager>
-<!--        认证提供者，执行具体的认证操作-->
-        <security:authentication-provider>
+<!--        认证提供者，执行具体的认证操作,使用认证服务类-->
+        <security:authentication-provider user-service-ref="securityUserService">
 <!--            用于获取用户信息，提供给authentication-provider进行认证-->
-            <security:user-service>
-<!--                user:定义用户信息，可以指定用户名，密码，角色后期可以改为从数据库查询信息
-                    {noop}:表示当前使用的密码为明文
--->
-                <security:user name="admin" authorities="LIQISONG" password="{noop}admin"/>
-            </security:user-service>
+<!--            <security:user-service>-->
+<!--&lt;!&ndash;                user:定义用户信息，可以指定用户名，密码，角色后期可以改为从数据库查询信息-->
+<!--                    {noop}:表示当前使用的密码为明文-->
+<!--&ndash;&gt;-->
+<!--                -->
+<!--                -->
+<!--                <security:user name="admin" authorities="LIQISONG" password="{noop}admin"/>-->
+<!--            </security:user-service>-->
+
+<!--            加入加密对象-->
+            <security:password-encoder ref="cryptPasswordEncoder"/>
         </security:authentication-provider>
     </security:authentication-manager>
+
+
+<!--    对密码进行加密-->
+<!--    指定密码加密对象-->
+    <bean id="cryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+<!--    自己配置一个服务，用来查询数据库，并在这个服务类要实现UserDetailService接口，最后再返回一个对象，在将这个服务类注册到spring-->
+    <bean class="com.lqs.service.SpringSecurityUserService" id="securityUserService"/>
+
+<!--    开启spring的注解方式,这里没有写，扫描controller包也没写-->
+
+<!--    开启注解方式权限控制-->
+    <security:global-method-security pre-post-annotations="enabled"/>
+
+
 
 </beans>

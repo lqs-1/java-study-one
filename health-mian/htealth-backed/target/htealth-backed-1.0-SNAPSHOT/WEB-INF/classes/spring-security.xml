@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+">
+
+    <!--
+    这个配置文件只是登录认证搜圈的时候使用个，在注册创建用户的时候，也可以使用个，使用
+        <bean class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" id="passwordEncoder"/>
+    对要保存到数据库的密码进行加密，也是要导入springSecurity-config和springSecurity-web的坐标的
+    创建用户的时候，用这个对密码加密
+    -->
+
+
+
+
+
+
+
+<!--    放行-->
+    <security:http security="none" pattern="/login.html"/>
+    <security:http security="none" pattern="/css/**"/>
+    <security:http security="none" pattern="/img/**"/>
+    <security:http security="none" pattern="/js/**"/>
+    <security:http security="none" pattern="/plugins/**"/>
+<!--    <security:http security="none" pattern="/pages/main.html"/>-->
+
+<!--    pages下面的页面保护起来-->
+    <security:http auto-config="true" use-expressions="true">
+        <!--        允许访问收到保护的页面-->
+        <security:headers>
+            <!-- 设置在页面可以通过iframe访问受保护的页面，默认为不允许访问 -->
+            <security:frame-options policy="SAMEORIGIN"/>
+        </security:headers>
+
+<!--        只要求认证通过就可以访问，更进一步的权限在controller方法中处理-->
+        <security:intercept-url pattern="/pages/**" access="isAuthenticated()"/>
+
+<!--        使用自定义的登录页面-->
+        <security:form-login
+            login-page="/login.html"
+            username-parameter="username"
+            password-parameter="password"
+            login-processing-url="/login.do"
+            default-target-url="/pages/main.html"
+            authentication-failure-url="/login.html"/>
+
+<!--        csrf过滤器，关闭-->
+        <security:csrf disabled="true"/>
+
+<!--        退出登录清除session-->
+        <security:logout logout-url="/logout.do" logout-success-url="/login.html" invalidate-session="true"/>
+
+    </security:http>
+
+
+
+<!--    配置认证管理器-->
+    <security:authentication-manager>
+<!--        这个自定义的认证处理已经在spring容器中了，就可以直接将认证处理类名首字母小写之后放在这，报错不用管-->
+        <security:authentication-provider user-service-ref="springSecurityUserService">
+<!--            指定对密码加密的对象-->
+            <security:password-encoder ref="passwordEncoder"/>
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+<!--    配置密码加密对象-->
+    <bean class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" id="passwordEncoder"/>
+
+<!--    被引入了springmvc，所以可以不用添加注解使用-->
+<!--    <context:annotation-config></context:annotation-config>-->
+
+<!--    开启注解方式权限控制-->
+    <security:global-method-security pre-post-annotations="enabled"/>
+
+
+
+
+
+</beans>

@@ -13,6 +13,7 @@
              (#{code},#{name},#{helpCode},#{sex},#{remark},#{attention})
     </insert>
 
+
 <!--    添加检查组和检查项的对应关系-->
     <insert id="addCheckGroupCheckItem" parameterType="map">
         insert into t_checkgroup_checkitem(checkgroup_id, checkitem_id) values(#{checKGroupId},#{checkItemId})
@@ -84,9 +85,6 @@
                     column="id"
                     select="com.lqs.mapper.CheckItemMapper.findCheckItemsByCheckGroupId"></collection>
     </resultMap>
-
-
-
 
     <!--根据套餐id查询关联的检查组集合-->
     <select id="selectCheckGroupsBySetmealId" parameterType="int" resultMap="findByIdResultMap">

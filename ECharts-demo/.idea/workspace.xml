@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0d27ebd-7766-4dd6-99ea-96a5106fa6ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-interface/src/main/java/com/lqs/api/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/java/com/lqs/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/java/com/lqs/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/java/com/lqs/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/resources/com/lqs/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/resources/com/lqs/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/java/com/lqs/service/SpringSecurityUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurity/src/main/java/com/lqs/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurity/src/main/java/com/lqs/service/SpringSecurityUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springSecurity/src/main/webapp/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/src/main/java/com/lqs/service/CheckGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/java/com/lqs/service/CheckGroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/src/main/resources/com/lqs/mapper/CheckGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/src/main/resources/com/lqs/mapper/CheckGroupMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/classes/com/lqs/mapper/CheckGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/target/classes/com/lqs/mapper/CheckGroupMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/classes/com/lqs/service/CheckGroupServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/target/classes/com/lqs/service/CheckGroupServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/java/com/lqs/controller/CheckGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/java/com/lqs/controller/CheckGroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/classes/com/lqs/controller/CheckGroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/classes/com/lqs/controller/CheckGroupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/classes/com/lqs/controller/CheckItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/classes/com/lqs/controller/CheckItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/src/main/java/Basc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/target/classes/Basc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/classes/Basc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springSecurity/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="26K3NFRYvcd3M5RqCJxFGJtY15S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0d27ebd-7766-4dd6-99ea-96a5106fa6ad" name="Default Changelist" comment="" />
+      <created>1647158411140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647158411140</updated>
+      <workItem from="1647158412590" duration="606000" />
+      <workItem from="1647159044242" duration="1459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
