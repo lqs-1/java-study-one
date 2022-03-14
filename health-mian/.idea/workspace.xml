@@ -5,48 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6524ba-ee5b-485f-8f29-48821b52d302" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ECharts-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECharts-demo/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECharts-demo/src/main/webapp/js/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-interface/src/main/java/com/lqs/api/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/service/SpringSecurityUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurity/src/main/java/com/lqs/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurity/src/main/java/com/lqs/service/SpringSecurityUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurity/src/main/webapp/pages/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health-interface/src/main/java/com/lqs/api/ReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/ReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/ReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/echarts/echarts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/CheckGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/service/CheckGroupServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/CheckGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/CheckGroupMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/CheckGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/CheckGroupMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/service/CheckGroupServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/service/CheckGroupServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckGroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-common/target/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-common/target/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile.war" beforeDir="false" afterPath="$PROJECT_DIR$/health-mobile/target/health-mobile.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/spring-security-acl-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/spring-security-config-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/spring-security-core-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/spring-security-crypto-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/spring-security-taglibs-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/health-mobile/WEB-INF/lib/spring-security-web-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health-mobile/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-mobile/target/tomcat/logs/access_log.2022-03-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/src/main/java/com/lqs/mapper/MemberMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper/MemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/MemberMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/MemberMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/classes/com/lqs/mapper/MemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/MemberMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/MemberMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/classes/com/lqs/mapper/MemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/spring-security-crypto-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/tomcat/logs/access_log.2022-03-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/health-provider/target/tomcat/logs/access_log.2022-03-13" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/src/main/webapp/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htealth-backed/target/classes/com/lqs/controller/CheckGroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/classes/com/lqs/controller/CheckGroupController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htealth-backed/target/classes/com/lqs/controller/CheckItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/classes/com/lqs/controller/CheckItemController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htealth-backed/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/classes/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaee/spring-s-m/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaee/spring-s-m/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/src/main/java/Basc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/target/classes/Basc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/classes/Basc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springSecurity/target/springSecurity-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springSecurity/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/spring-security-crypto-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/tomcat/logs/access_log.2022-03-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htealth-backed/target/tomcat/logs/access_log.2022-03-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/spring-security-crypto-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-test/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/job-test/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +90,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -96,7 +124,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/echarts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -109,11 +137,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/htealth-backed/src/main/webapp/plugins/echarts" />
       <recent name="$PROJECT_DIR$/health-provider/src/main/resources/com/lqs/mapper" />
       <recent name="$PROJECT_DIR$/health-mobile/src/main/resources" />
       <recent name="$PROJECT_DIR$/health-mobile/src/main/webapp" />
       <recent name="$PROJECT_DIR$/health-common/src/main/java/com/lqs/constant" />
-      <recent name="$PROJECT_DIR$/health-common/src/main/java/com/lqs/utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/htealth-backed/src/main/webapp/template" />
@@ -124,7 +152,20 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.htealth-backed [tomcat7:run-war]">
+  <component name="RunManager" selected="Maven.health-provider [tomcat7:run-war]">
+    <configuration name="ReportServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lqs.service.ReportServiceImpl" />
+      <module name="health-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SMSUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqs.utils.SMSUtils" />
       <module name="health-common" />
@@ -134,6 +175,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,45 +267,20 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="job-test [tomcat7:run-war]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run-war" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/job-test" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.SMSUtils" />
       <item itemvalue="Maven.health-provider [tomcat7:run-war]" />
       <item itemvalue="Maven.htealth-backed [tomcat7:run-war]" />
       <item itemvalue="Maven.health-mobile [tomcat7:run-war]" />
-      <item itemvalue="Maven.job-test [tomcat7:run-war]" />
+      <item itemvalue="Application.ReportServiceImpl" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.htealth-backed [tomcat7:run-war]" />
         <item itemvalue="Maven.health-provider [tomcat7:run-war]" />
+        <item itemvalue="Maven.htealth-backed [tomcat7:run-war]" />
+        <item itemvalue="Application.ReportServiceImpl" />
         <item itemvalue="Maven.health-mobile [tomcat7:run-war]" />
         <item itemvalue="Application.SMSUtils" />
-        <item itemvalue="Maven.job-test [tomcat7:run-war]" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +336,8 @@
       <workItem from="1647152848557" duration="5560000" />
       <workItem from="1647159021318" duration="21000" />
       <workItem from="1647160901452" duration="128000" />
+      <workItem from="1647177359522" duration="1147000" />
+      <workItem from="1647218292461" duration="4439000" />
     </task>
     <servers />
   </component>

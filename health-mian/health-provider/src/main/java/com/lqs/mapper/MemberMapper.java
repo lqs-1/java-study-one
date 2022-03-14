@@ -9,4 +9,6 @@ public interface MemberMapper {
     void add(Member member);
 
     Member findById(Integer memberId);
+
+    Integer findByMonth(String monthData);
 }

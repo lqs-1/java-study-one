@@ -1,5 +1,6 @@
 /home/lqs/桌面/JavaStudy/health-mian/htealth-backed/src/main/java/com/lqs/controller/UserController.java
 /home/lqs/桌面/JavaStudy/health-mian/htealth-backed/src/main/java/com/lqs/controller/CheckGroupController.java
+/home/lqs/桌面/JavaStudy/health-mian/htealth-backed/src/main/java/com/lqs/controller/ReportController.java
 /home/lqs/桌面/JavaStudy/health-mian/htealth-backed/src/main/java/com/lqs/service/SpringSecurityUserService.java
 /home/lqs/桌面/JavaStudy/health-mian/htealth-backed/src/main/java/com/lqs/controller/OrderController.java
 /home/lqs/桌面/JavaStudy/health-mian/htealth-backed/src/main/java/com/lqs/controller/CheckItemController.java
