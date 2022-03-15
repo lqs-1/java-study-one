@@ -9,6 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 
 import java.util.List;
+import java.util.Map;
 
 public interface SetmealService {
 
@@ -22,4 +23,5 @@ public interface SetmealService {
 
     Setmeal findById(Integer id);
 
+    List<Map<String, Object>> findSetMealCount();
 }

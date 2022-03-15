@@ -187,4 +187,13 @@ public class OrderServiceImpl implements OrderService {
         return resultMap;
     }
 
+    @Override
+    public void deleteOrderSetting() {
+        // 定时清除过期的ordersetting
+        String dataString = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+        orderMapper.clearOrderSetting(dataString);
+
+
+    }
+
 }

@@ -16,12 +16,17 @@
     <context:annotation-config/>
     <!-- 注册自定义job -->
     <bean id="myJob" class="com.lqs.job.ClearImgJob"/>
+    <bean id="myJob2" class="com.lqs.job.ClearOrdersetting"/>
     <!-- jobdetail，作用是通过反射调用真正的job方法 -->
     <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
         <!-- 目标对象 -->
         <property name="targetObject" ref="myJob"/>
         <!-- 目标方法 -->
         <property name="targetMethod" value="clearImg"/>
+    </bean>
+    <bean id="jobDetail2" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="myJob2"/>
+        <property name="targetMethod" value="clearOrderSetting"/>
     </bean>
     <!-- 配置触发器，指定触发的时间 -->
     <bean id="myTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
@@ -31,15 +36,39 @@
             <value>0/15 * * * * ?</value>
         </property>
     </bean>
+    <bean id="myTrigger2" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail2"/>
+        <property name="cronExpression">
+            <value>0/15 * * * * ?</value>
+        </property>
+    </bean>
     <!-- 配置统一的调度工厂，调度多个任务 -->
     <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
         <property name="triggers">
             <list>
                 <ref bean="myTrigger"/>
+                <ref bean="myTrigger2"/>
             </list>
         </property>
     </bean>
 
+
+
+<!--    配置dubbo发现-->
+    <dubbo:application name="job-test"/>
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <dubbo:annotation package="com.lqs.job" />
+    <dubbo:consumer timeout="600000" check="false"/>
+
+
+
     <import resource="spring-redis.xml"/>
+
+
+
+
+
+
+
 
 </beans>

@@ -11,4 +11,12 @@ public interface MemberMapper {
     Member findById(Integer memberId);
 
     Integer findByMonth(String monthData);
+
+    Integer findTodayNewMemberCount(String todayDate);
+
+    Integer findTotalMemberCount();
+
+    Integer findThisWeekNewMemberCount(String thisWeekFirstDay);
+
+    Integer findThisMonthNewMemberCount(String thisMonthFirstDay);
 }

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--
+        targetRuntime:执行生成的逆向工程的版本
+                MyBatis3Simple: 生成基本的CRUD（清新简洁版本）
+                MyBatis3：生成带条件的CRUD（奢华尊享版本）
+         id：随便，唯一标识符就好
+    -->
+    
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!--数据库的链接信息-->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ssm"
+                        userId="lqs"
+                        password="lqs">
+            <property name="nullCatalogMeansCurrent" value="true"/>
+        </jdbcConnection>
+        <!--
+        javaBean的生成策略
+            targetPackage：生成在哪个地方（哪个包）
+            targetProject：生成在哪个资源目录
+            内部属性：
+                enableSubPackages：是否使用子包，如果设置为false，那么就不会按照点（.）来区分，当成一个文件夹
+                trimStrings:去掉字符串里的空格，字段名
+
+        -->
+        <javaModelGenerator targetPackage="com.lqs.mybatis.pojo" targetProject="./src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!--
+            Sql映射文件的生成策略
+                targetPackage：生成在哪个地方
+                targetProject：生成在哪个资源目录
+                内部属性:
+                    enableSubPackages：是否使用子包，如果设置为false，那么就不会按照点（.）来区分，当成一个文件夹
+        -->
+        <sqlMapGenerator targetPackage="com.lqs.mybatis.mapper" targetProject="./src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+    <!--
+        mapper接口的生成策略
+            targetPackage：生成在哪个地方
+            targetProject：生成在哪个资源目录
+            内部属性:
+                enableSubPackages：是否使用子包，如果设置为false，那么就不会按照点（.）来区分，当成一个文件夹
+
+    -->
+        <javaClientGenerator targetPackage="com.lqs.mybatis.mapper" targetProject="./src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!--
+            逆向分析的表
+            tableName设置为×号，可以对应所有的表，此时不写domainObjectName
+            domainObjectName属性指定生成出来的实体类的类名
+        -->
+        <table tableName="user" domainObjectName="User"></table>
+    </context>
+</generatorConfiguration>

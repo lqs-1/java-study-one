@@ -4,11 +4,13 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.aliyuncs.exceptions.ClientException;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.lqs.api.OrderService;
 import com.lqs.api.SetmealService;
 import com.lqs.constant.RedisConstant;
 import com.lqs.entity.PageResult;
 import com.lqs.entity.QueryPageBean;
 import com.lqs.entity.Result;
+import com.lqs.mapper.OrderMapper;
 import com.lqs.mapper.SetmealMapper;
 import com.lqs.pojo.Setmeal;
 import com.lqs.utils.OssUtils;
@@ -18,6 +20,7 @@ import org.springframework.transaction.annotation.Transactional;
 import redis.clients.jedis.JedisPool;
 
 import java.io.ByteArrayInputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -28,6 +31,8 @@ public class SetmealServiceImpl implements SetmealService {
 
     @Autowired
     private SetmealMapper setmealMapper;
+    @Autowired
+    private OrderMapper orderMapper;
 
     @Autowired
     private JedisPool jedisPool;
@@ -94,6 +99,24 @@ public class SetmealServiceImpl implements SetmealService {
     @Override
     public Setmeal findById(Integer id) {
         return setmealMapper.findById(id);
+    }
+
+    @Override
+    public List<Map<String, Object>> findSetMealCount() {
+        // 存储结果
+        List<Map<String, Object>> resultData = new ArrayList<>();
+
+        // 先查setmeal对象
+        List<Setmeal> aLlSetmeal = setmealMapper.findALlSetmeal();
+        // 再根据setmeal查询预订个数
+        for (Setmeal setmeal : aLlSetmeal) {
+            Map<String, Object> reslutMap = new HashMap<>();
+            Integer orderCount = orderMapper.findOrderCountBySetmealId(setmeal.getId());
+            reslutMap.put("name",setmeal.getName());
+            reslutMap.put("value", orderCount);
+            resultData.add(reslutMap);
+        }
+        return resultData;
     }
 
 

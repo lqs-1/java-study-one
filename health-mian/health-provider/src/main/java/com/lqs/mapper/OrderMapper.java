@@ -28,4 +28,22 @@ public interface OrderMapper {
     void editReservationsByOrderDate(Map<String, Object> dateString);
 
     Order findById(Integer id);
+
+    Integer findOrderCountBySetmealId(Integer id);
+
+    void clearOrderSetting(String dataString);
+
+    Integer findTodayOrderCount(String todayDate);
+
+    Integer findTodayVisitsCount(String todayDate);
+
+    Integer findThisWeekOrderCount(String thisWeekFirstDay);
+
+    Integer findThisWeekVisitsCount(String thisWeekFirstDay);
+
+    Integer findThisMonthOrderCount(String thisMonthFirstDay);
+
+    Integer findThisMonthVisitsCount(String thisMonthFirstDay);
+
+    List<Map<String, Object>> findHotSetmealOrderCount();
 }

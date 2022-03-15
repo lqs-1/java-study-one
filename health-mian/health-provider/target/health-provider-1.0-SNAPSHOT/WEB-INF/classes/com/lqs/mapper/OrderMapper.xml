@@ -62,4 +62,55 @@
         select * from t_order where id=#{id}
     </select>
 
+
+<!--    根据setmealId查套餐的预订个数-->
+    <select id="findOrderCountBySetmealId" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+        select count(*) from t_order where setmeal_id=#{id}
+    </select>
+
+
+<!--    定时任务删除日期-->
+    <delete id="clearOrderSetting" parameterType="String">
+        delete from t_ordersetting where orderDate &lt;=  #{value}
+    </delete>
+
+
+<!--    查询今天的预约数量-->
+    <select id="findTodayOrderCount" parameterType="String" resultType="int">
+        select count(id) from t_order where orderDate=#{todayDate}
+    </select>
+
+<!--    查询今日到诊数量-->
+    <select id="findTodayVisitsCount" parameterType="String" resultType="int">
+        select count(id) from t_order where orderDate=#{todayDate} and orderStatus="已到诊"
+    </select>
+
+<!--    查询本周的预约数量-->
+    <select id="findThisWeekOrderCount" parameterType="String" resultType="int">
+        select count(id) from t_order where orderDate &gt;= #{thisWeekFirstDay}
+    </select>
+
+<!--    查询本周到诊数量-->
+    <select id="findThisWeekVisitsCount" parameterType="String" resultType="int">
+        select count(id) from t_order where orderDate &gt;= #{thisWeekFirstDay} and orderStatus="已到诊"
+    </select>
+
+<!--    查询本月的预约数量-->
+    <select id="findThisMonthOrderCount" resultType="int" parameterType="String">
+        select count(id) from t_order where orderDate &gt;= #{thisMonthFirstDay}
+    </select>
+
+    <!--    查询本月到诊数量-->
+    <select id="findThisMonthVisitsCount" resultType="int" parameterType="String">
+        select count(id) from t_order where orderDate &gt;= #{thisMonthFirstDay} and orderStatus="已到诊"
+    </select>
+
+<!--    查询最火套餐的id和预订次数，显示两条-->
+    <select id="findHotSetmealOrderCount" resultType="map">
+        select setmeal_id, count(*) setmeal_count  from t_order group by setmeal_id order by setmeal_count desc limit 0,2
+    </select>
+
+
+
+
 </mapper>

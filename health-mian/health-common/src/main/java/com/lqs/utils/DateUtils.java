@@ -69,228 +69,33 @@ public class DateUtils {
         return strDate;
     }
 
-    /**
-     * 获取当前日期的本周一是几号
-     *
-     * @return 本周一的日期
-     */
-    public static Date getThisWeekMonday() {
-        Calendar cal = Calendar.getInstance();
-        cal.setTime(new Date());
-        // 获得当前日期是一个星期的第几天
-        int dayWeek = cal.get(Calendar.DAY_OF_WEEK);
-        if (1 == dayWeek) {
-            cal.add(Calendar.DAY_OF_MONTH, -1);
-        }
-        // 设置一个星期的第一天，按中国的习惯一个星期的第一天是星期一
-        cal.setFirstDayOfWeek(Calendar.MONDAY);
-        // 获得当前日期是一个星期的第几天
-        int day = cal.get(Calendar.DAY_OF_WEEK);
-        // 根据日历的规则，给当前日期减去星期几与一个星期第一天的差值
-        cal.add(Calendar.DATE, cal.getFirstDayOfWeek() - day);
-        return cal.getTime();
-    }
-
-    /**
-     * 获取当前日期周的最后一天
-     *
-     * @return 当前日期周的最后一天
-     */
-    public static Date getSundayOfThisWeek() {
-        Calendar c = Calendar.getInstance();
-        int dayOfWeek = c.get(Calendar.DAY_OF_WEEK) - 1;
-        if (dayOfWeek == 0) {
-            dayOfWeek = 7;
-        }
-        c.add(Calendar.DATE, -dayOfWeek + 7);
-        return c.getTime();
-    }
-
-    /**
-     * 根据日期区间获取月份列表
-     *
-     * @param minDate 开始时间
-     * @param maxDate 结束时间
-     * @return 月份列表
-     * @throws Exception
-     */
-    public static List<String> getMonthBetween(String minDate, String maxDate, String format) throws Exception {
-        ArrayList<String> result = new ArrayList<>();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
-
-        Calendar min = Calendar.getInstance();
-        Calendar max = Calendar.getInstance();
-
-        min.setTime(sdf.parse(minDate));
-        min.set(min.get(Calendar.YEAR), min.get(Calendar.MONTH), 1);
-
-        max.setTime(sdf.parse(maxDate));
-        max.set(max.get(Calendar.YEAR), max.get(Calendar.MONTH), 2);
-        SimpleDateFormat sdf2 = new SimpleDateFormat(format);
-
-        Calendar curr = min;
-        while (curr.before(max)) {
-            result.add(sdf2.format(curr.getTime()));
-            curr.add(Calendar.MONTH, 1);
-        }
-
-        return result;
-    }
-
-    /**
-     * 根据日期获取年度中的周索引
-     *
-     * @param date 日期
-     * @return 周索引
-     * @throws Exception
-     */
-    public static Integer getWeekOfYear(String date) throws Exception {
-        Date useDate = parseString2Date(date);
-        Calendar cal = Calendar.getInstance();
-        cal.setTime(useDate);
-        return cal.get(Calendar.WEEK_OF_YEAR);
-    }
-
-    /**
-     * 根据年份获取年中周列表
-     *
-     * @param year 年分
-     * @return 周列表
-     * @throws Exception
-     */
-    public static Map<Integer, String> getWeeksOfYear(String year) throws Exception {
-        Date useDate = parseString2Date(year, "yyyy");
-        Calendar cal = Calendar.getInstance();
-        cal.setTime(useDate);
-        //获取年中周数量
-        int weeksCount = cal.getWeeksInWeekYear();
-        Map<Integer, String> mapWeeks = new HashMap<>(55);
-        for (int i = 0; i < weeksCount; i++) {
-            cal.get(Calendar.DAY_OF_YEAR);
-            mapWeeks.put(i + 1, parseDate2String(getFirstDayOfWeek(cal.get(Calendar.YEAR), i)));
-        }
-        return mapWeeks;
-    }
-
-    /**
-     * 获取某年的第几周的开始日期
-     *
-     * @param year 年分
-     * @param week 周索引
-     * @return 开始日期
-     * @throws Exception
-     */
-    public static Date getFirstDayOfWeek(int year, int week) throws Exception {
-        Calendar c = new GregorianCalendar();
-        c.set(Calendar.YEAR, year);
-        c.set(Calendar.MONTH, Calendar.JANUARY);
-        c.set(Calendar.DATE, 1);
-
-        Calendar cal = (GregorianCalendar) c.clone();
-        cal.add(Calendar.DATE, week * 7);
-
-        return getFirstDayOfWeek(cal.getTime());
-    }
-
-    /**
-     * 获取某年的第几周的结束日期
-     *
-     * @param year 年份
-     * @param week 周索引
-     * @return 结束日期
-     * @throws Exception
-     */
-    public static Date getLastDayOfWeek(int year, int week) throws Exception {
-        Calendar c = new GregorianCalendar();
-        c.set(Calendar.YEAR, year);
-        c.set(Calendar.MONTH, Calendar.JANUARY);
-        c.set(Calendar.DATE, 1);
-
-        Calendar cal = (GregorianCalendar) c.clone();
-        cal.add(Calendar.DATE, week * 7);
-
-        return getLastDayOfWeek(cal.getTime());
-    }
-
-    /**
-     * 获取当前时间所在周的开始日期
-     *
-     * @param date 当前时间
-     * @return 开始时间
-     */
-    public static Date getFirstDayOfWeek(Date date) {
-        Calendar c = new GregorianCalendar();
-        c.setFirstDayOfWeek(Calendar.SUNDAY);
-        c.setTime(date);
-        c.set(Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek());
-        return c.getTime();
-    }
-
-    /**
-     * 获取当前时间所在周的结束日期
-     *
-     * @param date 当前时间
-     * @return 结束日期
-     */
-    public static Date getLastDayOfWeek(Date date) {
-        Calendar c = new GregorianCalendar();
-        c.setFirstDayOfWeek(Calendar.SUNDAY);
-        c.setTime(date);
-        c.set(Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek() + 6);
-        return c.getTime();
-    }
-    //获得上周一的日期
-    public static Date geLastWeekMonday(Date date) {
-        Calendar cal = Calendar.getInstance();
-        cal.setTime(getThisWeekMonday(date));
-        cal.add(Calendar.DATE, -7);
-        return cal.getTime();
-    }
-
-    //获得本周一的日期
-    public static Date getThisWeekMonday(Date date) {
-        Calendar cal = Calendar.getInstance();
-        cal.setTime(date);
-        // 获得当前日期是一个星期的第几天
-        int dayWeek = cal.get(Calendar.DAY_OF_WEEK);
-        if (1 == dayWeek) {
-            cal.add(Calendar.DAY_OF_MONTH, -1);
-        }
-        // 设置一个星期的第一天，按中国的习惯一个星期的第一天是星期一
-        cal.setFirstDayOfWeek(Calendar.MONDAY);
-        // 获得当前日期是一个星期的第几天
-        int day = cal.get(Calendar.DAY_OF_WEEK);
-        // 根据日历的规则，给当前日期减去星期几与一个星期第一天的差值
-        cal.add(Calendar.DATE, cal.getFirstDayOfWeek() - day);
-        return cal.getTime();
-    }
-
-    //获得下周一的日期
-    public static Date getNextWeekMonday(Date date) {
-        Calendar cal = Calendar.getInstance();
-        cal.setTime(getThisWeekMonday(date));
-        cal.add(Calendar.DATE, 7);
-        return cal.getTime();
-    }
-
-    //获得今天日期
-    public static Date getToday(){
-        return new Date();
-    }
-
-    //获得本月一日的日期
-    public static Date getFirstDay4ThisMonth(){
+    // 获取当前周的周一
+    public static String getThisWeekFirstDay(){
         Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.DAY_OF_MONTH,1);
-        return calendar.getTime();
+        // 设置一周的第一天是周几
+        calendar.setFirstDayOfWeek(Calendar.MONDAY);
+        // 获取当前是这一周的第几天
+        int weekDay = calendar.get(Calendar.DAY_OF_WEEK);
+        // 根据日期来推算（1-x）
+        calendar.add(Calendar.DATE, calendar.getFirstDayOfWeek() - weekDay);
+        // 格式化返回
+        return new SimpleDateFormat("yyyy-MM-dd").format(calendar.getTime());
+    }
+
+
+    // 获取当前月的第一天
+    public static String getThisMonthFirstDay(){
+        Calendar calendar = Calendar.getInstance();
+        // 设置日期为当前月的第一天
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        // 返回格式化数据
+        return new SimpleDateFormat("yyyy-MM-dd").format(calendar.getTime());
     }
 
     public static void main(String[] args) {
-        try {
-            System.out.println("本周一" + parseDate2String(getThisWeekMonday()));
-            System.out.println("本月一日" + parseDate2String(getFirstDay4ThisMonth()));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        String thisWeekFirstDay = DateUtils.getThisWeekFirstDay();
+        System.out.println(thisWeekFirstDay);
+        String thisMonthFirstDay = DateUtils.getThisMonthFirstDay();
+        System.out.println(thisMonthFirstDay);
     }
 }

@@ -24,4 +24,25 @@
         select count(id) from t_member where regTime &lt;=#{monthData}
     </select>
 
+
+<!--    查询今天新增的会员-->
+    <select id="findTodayNewMemberCount" parameterType="String" resultType="int">
+        select count(id) from t_member where regTime=#{todayDate}
+    </select>
+
+<!--    查询总会员数量-->
+    <select id="findTotalMemberCount" resultType="int">
+        select count(id) from t_member
+    </select>
+
+<!--    查询本周新增会员数量-->
+    <select id="findThisWeekNewMemberCount" resultType="int" parameterType="String">
+        select count(id) from t_member where regTime &gt;= #{thisWeekFirstDay}
+    </select>
+
+<!--    查询本月新增的会员数量-->
+    <select id="findThisMonthNewMemberCount" resultType="int" parameterType="String">
+        select count(id) from t_member where regTime &gt;= #{thisMonthFirstDay}
+    </select>
+
 </mapper>

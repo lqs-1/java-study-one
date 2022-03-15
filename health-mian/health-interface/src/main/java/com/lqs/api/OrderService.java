@@ -18,4 +18,6 @@ public interface OrderService {
     Result addOrder(Map map) throws Exception;
 
     Map<String, Object> findById(Integer id);
+
+    void deleteOrderSetting();
 }
