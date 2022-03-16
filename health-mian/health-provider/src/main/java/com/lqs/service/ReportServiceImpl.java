@@ -2,7 +2,6 @@ package com.lqs.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.lqs.api.ReportService;
-import com.lqs.api.SetmealService;
 import com.lqs.constant.MessageConstant;
 import com.lqs.entity.Result;
 import com.lqs.mapper.MemberMapper;
@@ -141,7 +140,6 @@ public class ReportServiceImpl implements ReportService {
         resultMap.put("thisMonthOrderNumber", thisMonthOrderNumber);
         resultMap.put("thisMonthVisitsNumber", thisMonthVisitsNumber);
         resultMap.put("hotSetmeal", hotSetmeal);
-
         return resultMap;
     }
 
