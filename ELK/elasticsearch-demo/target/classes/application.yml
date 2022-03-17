@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: elasticsearch
+
+lqs:
+  service:
+    hostlist: 127.0.0.1:9200  # 如果有多个用逗号分割

@@ -1,1 +1,7 @@
+com/lqs/service/SpringSecurityUserService.class
+com/lqs/controller/UserController.class
+com/lqs/controller/OrderController.class
+com/lqs/controller/SetmealController.class
+com/lqs/controller/CheckGroupController.class
+com/lqs/controller/CheckItemController.class
 com/lqs/controller/ReportController.class

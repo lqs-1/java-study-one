@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1277ffa-bb0f-4890-99b1-a7fc48c76726" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/com/lqs/config/ElastConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/java/com/lqs/elast/ElasticSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/test/java/com/lqs/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/test/java/com/lqs/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/test/java/com/lqs/test/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch-demo/src/test/java/com/lqs/test/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-common/target/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-common/target/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-interface/target/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-interface/target/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/src/main/java/com/lqs/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/src/main/java/com/lqs/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/com/lqs/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/com/lqs/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/classes/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/health-mobile.war" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/health-mobile.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/health-mobile/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/health-mobile/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/health-mobile/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/health-mobile/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-mobile/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-mobile/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/health-provider-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/target/health-provider-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/target/health-provider-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/health-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/health-provider/target/tomcat/logs/access_log.2022-03-15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/resources/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/report_business.html" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/report_business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/setmeal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/src/main/webapp/pages/setmeal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/htealth-backed-1.0-SNAPSHOT/template/.~report_template.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/tomcat/logs/access_log.2022-03-15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/htealth-backed/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/htealth-backed/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/job-test/target/job-test-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/job-test/target/job-test-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/job-test/target/job-test-1.0-SNAPSHOT/WEB-INF/lib/health-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/job-test/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/job-test/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../health-mian/job-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../health-mian/job-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26SI7go1j5seTPNaGszYwBQzXJK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.Test4.test444">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.test.Test1" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2.test22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.test.Test2" />
+      <option name="METHOD_NAME" value="test22" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3.test33" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.test.Test3" />
+      <option name="METHOD_NAME" value="test33" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4.test444" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lqs.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lqs.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lqs.test.Test4" />
+      <option name="METHOD_NAME" value="test444" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test4.test444" />
+        <item itemvalue="JUnit.Test3.test33" />
+        <item itemvalue="JUnit.Test2.test22" />
+        <item itemvalue="JUnit.Test1.test11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1277ffa-bb0f-4890-99b1-a7fc48c76726" name="Default Changelist" comment="" />
+      <created>1647410395627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647410395627</updated>
+      <workItem from="1647410396909" duration="3669000" />
+      <workItem from="1647416079363" duration="1393000" />
+      <workItem from="1647418567445" duration="746000" />
+      <workItem from="1647420873173" duration="1319000" />
+      <workItem from="1647437698555" duration="12336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
