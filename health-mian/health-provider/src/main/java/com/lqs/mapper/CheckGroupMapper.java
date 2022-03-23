@@ -2,10 +2,12 @@ package com.lqs.mapper;
 
 import com.github.pagehelper.Page;
 import com.lqs.pojo.CheckGroup;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 import java.util.Map;
 
+@Mapper
 public interface CheckGroupMapper {
     void addCheckGroup(CheckGroup checkGroup);
     void addCheckGroupCheckItem(Map<String, Integer> checkGroupCheckItem);
